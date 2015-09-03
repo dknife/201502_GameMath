@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2014.3.4)  3 SEP 2015 16:51
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2014.3.4)  3 SEP 2015 16:50
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**Lec1_Intro.tex
-(./Lec1_Intro.tex
+**Lec2_vector.tex
+(./Lec2_vector.tex
 LaTeX2e <2011/06/27>
 Babel <3.9f> and hyphenation patterns for 78 languages loaded.
 (/usr/local/texlive/2013/texmf-dist/tex/latex/beamer/beamer.cls
@@ -1061,87 +1061,88 @@ Package: cjkutf8-josa 2013/02/23 v1.0 Auto-Josa for CJKutf8
 Package: kolabels-utf 2013/02/23 v1.0 UTF-8 Hangul item labels
 )
 (/usr/local/texlive/2013/texmf-dist/tex/generic/pdftex/glyphtounicode.tex)))
-No file Lec1_Intro.aux.
-\openout1 = `Lec1_Intro.aux'.
+(./Lec2_vector.aux)
+\openout1 = `Lec2_vector.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for C00/song/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for C05/song/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for C09/song/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for C10/song/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for C20/song/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for C19/song/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for C40/song/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for C42/song/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for C43/song/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for C50/song/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for C52/song/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for C49/song/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for C60/mj/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for C61/mj/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for C63/mj/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for C64/mj/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for C65/mj/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for C70/song/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for C31/song/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for C32/song/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for C33/song/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for C34/song/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for C35/song/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for C36/song/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for C37/song/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for C80/song/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for C81/song/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for C01/song/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for C11/song/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for C21/song/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for C41/song/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for C62/song/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for C00/song/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for C05/song/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for C09/song/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for C10/song/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for C20/song/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for C19/song/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for C40/song/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for C42/song/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for C43/song/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for C50/song/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for C52/song/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for C49/song/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for C60/mj/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for C61/mj/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for C63/mj/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for C64/mj/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for C65/mj/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for C70/song/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for C31/song/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for C32/song/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for C33/song/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for C34/song/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for C35/song/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for C36/song/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for C37/song/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for C80/song/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for C81/song/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for C01/song/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for C11/song/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for C21/song/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for C41/song/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for C62/song/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
@@ -1206,7 +1207,7 @@ e
 ))
 ABD: EveryShipout initializing macros
 \AtBeginShipoutBox=\box55
-Package hyperref Info: Link coloring OFF on input line 27.
+Package hyperref Info: Link coloring OFF on input line 26.
 
 (/usr/local/texlive/2013/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
@@ -1216,13 +1217,13 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
 \c@section@level=\count160
 )
-LaTeX Info: Redefining \ref on input line 27.
-LaTeX Info: Redefining \pageref on input line 27.
-LaTeX Info: Redefining \nameref on input line 27.
+LaTeX Info: Redefining \ref on input line 26.
+LaTeX Info: Redefining \pageref on input line 26.
+LaTeX Info: Redefining \nameref on input line 26.
 
-(./Lec1_Intro.out) (./Lec1_Intro.out)
+(./Lec2_vector.out) (./Lec2_vector.out)
 \@outlinefile=\write5
-\openout5 = `Lec1_Intro.out'.
+\openout5 = `Lec2_vector.out'.
 
 
 (/usr/local/texlive/2013/texmf-dist/tex/latex/beamer/translator/dicts/translato
@@ -1249,132 +1250,387 @@ Dictionary: translator-numbers-dictionary, Language: English
 r-theorem-dictionary/translator-theorem-dictionary-English.dict
 Dictionary: translator-theorem-dictionary, Language: English 
 )
-LaTeX Info: Redefining \includegraphics on input line 27.
+LaTeX Info: Redefining \includegraphics on input line 26.
 
-(./Lec1_Intro.nav)
+(./Lec2_vector.nav)
 LaTeX Font Info:    Try loading font information for C70+nanummj on input line 
-27.
+26.
 
 (/usr/local/texlive/2013/texmf-dist/tex/latex/nanumtype1/c70nanummj.fd
 File: c70nanummj.fd 2013/02/16 v0.2 Nanum Myeongjo font definitions
 )
 
 LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <4> not available
-(Font)              size <5> substituted on input line 32.
+(Font)              size <5> substituted on input line 31.
 
 [1
 
 {/usr/local/texlive/2013/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-LaTeX Font Info:    Font shape `C70/nanummj/m/it'
-(Font)              in size <10> not available.
-(Font)              Font shape `C70/nanummj/m/sl'
-(Font)              tried instead on input line 59.
+LaTeX Font Info:    Try loading font information for C70+uhcmj on input line 64
+.
 
-[2
+(/usr/local/texlive/2013/texmf-dist/tex/latex/nanumtype1/c70uhcmj.fd
+File: c70uhcmj.fd 2013/02/16 v0.2 UHC Myeongjo font definitions
+) [2
 
 ]
-LaTeX Font Info:    Try loading font information for U+msa on input line 86.
- (/usr/local/texlive/2013/texmf-dist/tex/latex/amsfonts/umsa.fd
+LaTeX Font Info:    Try loading font information for U+msa on input line 92.
+
+(/usr/local/texlive/2013/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 86.
+LaTeX Font Info:    Try loading font information for U+msb on input line 92.
 
 (/usr/local/texlive/2013/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-) [3
+)
+Package epstopdf Info: Source file: <./Math_vector/movingVehicles.eps>
+(epstopdf)                    date: 2014-10-15 10:40:52
+(epstopdf)                    size: 190991 bytes
+(epstopdf)             Output file: <./Math_vector/movingVehicles-eps-converted
+-to.pdf>
+(epstopdf)                    date: 2015-02-02 22:43:46
+(epstopdf)                    size: 170646 bytes
+(epstopdf)             Command: <repstopdf --outfile=./Math_vector/movingVehicl
+es-eps-converted-to.pdf ./Math_vector/movingVehicles.eps>
+(epstopdf)             \includegraphics on input line 92.
+Package epstopdf Info: Output file is already uptodate.
 
-] [4
+<./Math_vector/movingVehicles-eps-converted-to.pdf, id=77, 513.92pt x 77.28876p
+t>
+File: ./Math_vector/movingVehicles-eps-converted-to.pdf Graphic file (type pdf)
+
+ <use ./Math_vector/movingVehicles-eps-converted-to.pdf>
+Package pdftex.def Info: ./Math_vector/movingVehicles-eps-converted-to.pdf used
+ on input line 92.
+(pdftex.def)             Requested size: 263.18799pt x 39.58183pt.
+ [3
+
+ <./Math_vector/movingVehicles-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <Math_vector/vectorExpression.eps>
+(epstopdf)                    date: 2014-10-15 10:44:34
+(epstopdf)                    size: 96416 bytes
+(epstopdf)             Output file: <Math_vector/vectorExpression-eps-converted
+-to.pdf>
+(epstopdf)                    date: 2015-02-02 22:43:48
+(epstopdf)                    size: 75396 bytes
+(epstopdf)             Command: <repstopdf --outfile=Math_vector/vectorExpressi
+on-eps-converted-to.pdf Math_vector/vectorExpression.eps>
+(epstopdf)             \includegraphics on input line 117.
+Package epstopdf Info: Output file is already uptodate.
+
+<Math_vector/vectorExpression-eps-converted-to.pdf, id=101, 531.9875pt x 103.38
+625pt>
+File: Math_vector/vectorExpression-eps-converted-to.pdf Graphic file (type pdf)
+
+ <use Math_vector/vectorExpression-eps-converted-to.pdf>
+Package pdftex.def Info: Math_vector/vectorExpression-eps-converted-to.pdf used
+ on input line 117.
+(pdftex.def)             Requested size: 227.62204pt x 44.23593pt.
+Package epstopdf Info: Source file: <Math_vector/increasedSpeed.eps>
+(epstopdf)                    date: 2014-10-15 10:44:30
+(epstopdf)                    size: 80202 bytes
+(epstopdf)             Output file: <Math_vector/increasedSpeed-eps-converted-t
+o.pdf>
+(epstopdf)                    date: 2015-02-02 22:43:48
+(epstopdf)                    size: 73757 bytes
+(epstopdf)             Command: <repstopdf --outfile=Math_vector/increasedSpeed
+-eps-converted-to.pdf Math_vector/increasedSpeed.eps>
+(epstopdf)             \includegraphics on input line 117.
+Package epstopdf Info: Output file is already uptodate.
+
+<Math_vector/increasedSpeed-eps-converted-to.pdf, id=102, 386.44376pt x 103.386
+25pt>
+File: Math_vector/increasedSpeed-eps-converted-to.pdf Graphic file (type pdf)
+ <use Math_vector/increasedSpeed-eps-converted-to.pdf>
+Package pdftex.def Info: Math_vector/increasedSpeed-eps-converted-to.pdf used o
+n input line 117.
+(pdftex.def)             Requested size: 227.62204pt x 60.89638pt.
+ [4
+
+ <./Math_vector/vectorExpression-eps-converted-to.pdf> <./Math_vector/increased
+Speed-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <Math_vector/equivalentVectors.eps>
+(epstopdf)                    date: 2014-10-15 10:45:34
+(epstopdf)                    size: 19772 bytes
+(epstopdf)             Output file: <Math_vector/equivalentVectors-eps-converte
+d-to.pdf>
+(epstopdf)                    date: 2015-02-02 22:43:48
+(epstopdf)                    size: 4405 bytes
+(epstopdf)             Command: <repstopdf --outfile=Math_vector/equivalentVect
+ors-eps-converted-to.pdf Math_vector/equivalentVectors.eps>
+(epstopdf)             \includegraphics on input line 144.
+Package epstopdf Info: Output file is already uptodate.
+
+<Math_vector/equivalentVectors-eps-converted-to.pdf, id=124, 150.5625pt x 114.4
+275pt>
+File: Math_vector/equivalentVectors-eps-converted-to.pdf Graphic file (type pdf
+)
+ <use Math_vector/equivalentVectors-eps-converted-to.pdf>
+Package pdftex.def Info: Math_vector/equivalentVectors-eps-converted-to.pdf use
+d on input line 144.
+(pdftex.def)             Requested size: 142.26378pt x 108.13106pt.
+ [5
+
+ <./Math_vector/equivalentVectors-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <./Math_vector/equivalentVectors2.eps>
+(epstopdf)                    date: 2014-09-01 17:06:30
+(epstopdf)                    size: 23247 bytes
+(epstopdf)             Output file: <./Math_vector/equivalentVectors2-eps-conve
+rted-to.pdf>
+(epstopdf)                    date: 2015-02-02 22:43:48
+(epstopdf)                    size: 4274 bytes
+(epstopdf)             Command: <repstopdf --outfile=./Math_vector/equivalentVe
+ctors2-eps-converted-to.pdf ./Math_vector/equivalentVectors2.eps>
+(epstopdf)             \includegraphics on input line 157.
+Package epstopdf Info: Output file is already uptodate.
+
+<./Math_vector/equivalentVectors2-eps-converted-to.pdf, id=138, 307.1475pt x 11
+4.4275pt>
+File: ./Math_vector/equivalentVectors2-eps-converted-to.pdf Graphic file (type 
+pdf)
+ <use ./Math_vector/equivalentVectors2-eps-converted-to.pdf>
+Package pdftex.def Info: ./Math_vector/equivalentVectors2-eps-converted-to.pdf 
+used on input line 157.
+(pdftex.def)             Requested size: 284.52756pt x 106.00789pt.
+ [6
+
+ <./Math_vector/equivalentVectors2-eps-converted-to.pdf>] [7
 
 ]
+Package epstopdf Info: Source file: <Math_vector/2dVectors.eps>
+(epstopdf)                    date: 2015-01-20 22:01:54
+(epstopdf)                    size: 85568 bytes
+(epstopdf)             Output file: <Math_vector/2dVectors-eps-converted-to.pdf
+>
+(epstopdf)                    date: 2015-02-02 22:43:48
+(epstopdf)                    size: 11195 bytes
+(epstopdf)             Command: <repstopdf --outfile=Math_vector/2dVectors-eps-
+converted-to.pdf Math_vector/2dVectors.eps>
+(epstopdf)             \includegraphics on input line 182.
+Package epstopdf Info: Output file is already uptodate.
+
+<Math_vector/2dVectors-eps-converted-to.pdf, id=163, 483.8075pt x 323.2075pt>
+File: Math_vector/2dVectors-eps-converted-to.pdf Graphic file (type pdf)
+
+<use Math_vector/2dVectors-eps-converted-to.pdf>
+Package pdftex.def Info: Math_vector/2dVectors-eps-converted-to.pdf used on inp
+ut line 182.
+(pdftex.def)             Requested size: 284.52756pt x 190.08417pt.
+ [8
+
+ <./Math_vector/2dVectors-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <Math_vector/vectorMove.eps>
+(epstopdf)                    date: 2015-02-02 21:46:16
+(epstopdf)                    size: 42452 bytes
+(epstopdf)             Output file: <Math_vector/vectorMove-eps-converted-to.pd
+f>
+(epstopdf)                    date: 2015-02-02 22:43:48
+(epstopdf)                    size: 6096 bytes
+(epstopdf)             Command: <repstopdf --outfile=Math_vector/vectorMove-eps
+-converted-to.pdf Math_vector/vectorMove.eps>
+(epstopdf)             \includegraphics on input line 196.
+Package epstopdf Info: Output file is already uptodate.
+
+<Math_vector/vectorMove-eps-converted-to.pdf, id=182, 387.4475pt x 258.9675pt>
+File: Math_vector/vectorMove-eps-converted-to.pdf Graphic file (type pdf)
+
+<use Math_vector/vectorMove-eps-converted-to.pdf>
+Package pdftex.def Info: Math_vector/vectorMove-eps-converted-to.pdf used on in
+put line 196.
+(pdftex.def)             Requested size: 256.0748pt x 171.1601pt.
+
+Overfull \vbox (11.35612pt too high) detected at line 196
+ []
+
+[9
+
+ <./Math_vector/vectorMove-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <Math_vector/3dVector.eps>
+(epstopdf)                    date: 2015-02-02 21:46:44
+(epstopdf)                    size: 67787 bytes
+(epstopdf)             Output file: <Math_vector/3dVector-eps-converted-to.pdf>
+
+(epstopdf)                    date: 2015-02-02 22:43:48
+(epstopdf)                    size: 7903 bytes
+(epstopdf)             Command: <repstopdf --outfile=Math_vector/3dVector-eps-c
+onverted-to.pdf Math_vector/3dVector.eps>
+(epstopdf)             \includegraphics on input line 205.
+Package epstopdf Info: Output file is already uptodate.
+
+<Math_vector/3dVector-eps-converted-to.pdf, id=197, 328.22626pt x 279.0425pt>
+File: Math_vector/3dVector-eps-converted-to.pdf Graphic file (type pdf)
+
+<use Math_vector/3dVector-eps-converted-to.pdf>
+Package pdftex.def Info: Math_vector/3dVector-eps-converted-to.pdf used on inpu
+t line 205.
+(pdftex.def)             Requested size: 256.0748pt x 217.70335pt.
+
+Overfull \vbox (29.88907pt too high) detected at line 205
+ []
+
+[10
+
+ <./Math_vector/3dVector-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <Math_vector/Pythagoras2D.eps>
+(epstopdf)                    date: 2015-02-02 21:48:22
+(epstopdf)                    size: 108779 bytes
+(epstopdf)             Output file: <Math_vector/Pythagoras2D-eps-converted-to.
+pdf>
+(epstopdf)                    date: 2015-02-02 22:43:48
+(epstopdf)                    size: 10533 bytes
+(epstopdf)             Command: <repstopdf --outfile=Math_vector/Pythagoras2D-e
+ps-converted-to.pdf Math_vector/Pythagoras2D.eps>
+(epstopdf)             \includegraphics on input line 224.
+Package epstopdf Info: Output file is already uptodate.
+
+<Math_vector/Pythagoras2D-eps-converted-to.pdf, id=224, 275.0275pt x 276.03125p
+t>
+File: Math_vector/Pythagoras2D-eps-converted-to.pdf Graphic file (type pdf)
+ <use Math_vector/Pythagoras2D-eps-converted-to.pdf>
+Package pdftex.def Info: Math_vector/Pythagoras2D-eps-converted-to.pdf used on 
+input line 224.
+(pdftex.def)             Requested size: 170.71652pt x 171.34398pt.
+ [11
+
+ <./Math_vector/Pythagoras2D-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <Math_vector/3dVectorLength.eps>
+(epstopdf)                    date: 2014-09-02 17:14:58
+(epstopdf)                    size: 69791 bytes
+(epstopdf)             Output file: <Math_vector/3dVectorLength-eps-converted-t
+o.pdf>
+(epstopdf)                    date: 2015-02-02 22:43:48
+(epstopdf)                    size: 9010 bytes
+(epstopdf)             Command: <repstopdf --outfile=Math_vector/3dVectorLength
+-eps-converted-to.pdf Math_vector/3dVectorLength.eps>
+(epstopdf)             \includegraphics on input line 238.
+Package epstopdf Info: Output file is already uptodate.
+
+<Math_vector/3dVectorLength-eps-converted-to.pdf, id=252, 272.01625pt x 196.735
+pt>
+File: Math_vector/3dVectorLength-eps-converted-to.pdf Graphic file (type pdf)
+ <use Math_vector/3dVectorLength-eps-converted-to.pdf>
+Package pdftex.def Info: Math_vector/3dVectorLength-eps-converted-to.pdf used o
+n input line 238.
+(pdftex.def)             Requested size: 199.16928pt x 144.05663pt.
+ [12
+
+ <./Math_vector/3dVectorLength-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <Math_vector/unitVector.eps>
+(epstopdf)                    date: 2014-09-02 17:47:12
+(epstopdf)                    size: 120521 bytes
+(epstopdf)             Output file: <Math_vector/unitVector-eps-converted-to.pd
+f>
+(epstopdf)                    date: 2015-02-02 22:43:48
+(epstopdf)                    size: 10339 bytes
+(epstopdf)             Command: <repstopdf --outfile=Math_vector/unitVector-eps
+-converted-to.pdf Math_vector/unitVector.eps>
+(epstopdf)             \includegraphics on input line 257.
+Package epstopdf Info: Output file is already uptodate.
+
+<Math_vector/unitVector-eps-converted-to.pdf, id=275, 339.2675pt x 71.26625pt>
+File: Math_vector/unitVector-eps-converted-to.pdf Graphic file (type pdf)
+
+<use Math_vector/unitVector-eps-converted-to.pdf>
+Package pdftex.def Info: Math_vector/unitVector-eps-converted-to.pdf used on in
+put line 257.
+(pdftex.def)             Requested size: 227.62204pt x 47.81337pt.
+ [13
+
+ <./Math_vector/unitVector-eps-converted-to.pdf>]
 \tf@nav=\write6
-\openout6 = `Lec1_Intro.nav'.
+\openout6 = `Lec2_vector.nav'.
 
 \tf@toc=\write7
-\openout7 = `Lec1_Intro.toc'.
+\openout7 = `Lec2_vector.toc'.
 
 \tf@snm=\write8
-\openout8 = `Lec1_Intro.snm'.
+\openout8 = `Lec2_vector.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 111.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 111.
-
-(./Lec1_Intro.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 111.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 111.
-Package rerunfilecheck Info: File `Lec1_Intro.out' has not changed.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 262.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 262.
+ (./Lec2_vector.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 262.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 262.
+Package rerunfilecheck Info: File `Lec2_vector.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
 
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 1.0pt have occurred.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 111.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 262.
  ) 
 Here is how much of TeX's memory you used:
- 18059 strings out of 493315
- 326212 string characters out of 6137905
- 416683 words of memory out of 5000000
- 20968 multiletter control sequences out of 15000+600000
- 40854 words of font info for 144 fonts, out of 8000000 for 9000
+ 18384 strings out of 493315
+ 331753 string characters out of 6137905
+ 419791 words of memory out of 5000000
+ 21169 multiletter control sequences out of 15000+600000
+ 84550 words of font info for 263 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
- 49i,16n,57p,418b,576s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb
-></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb>
-</usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></
-usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></us
-r/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/
-local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/lo
-cal/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/local
-/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/te
-xlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texli
-ve/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive
-/2013/texmf-dist/fonts/type1/public/nanumtype1/nanummjmac.pfb></usr/local/texli
-ve/2013/texmf-dist/fonts/type1/public/nanumtype1/nanummjmac.pfb></usr/local/tex
-live/2013/texmf-dist/fonts/type1/public/nanumtype1/nanummjmad.pfb></usr/local/t
-exlive/2013/texmf-dist/fonts/type1/public/nanumtype1/nanummjmad.pfb></usr/local
-/texlive/2013/texmf-dist/fonts/type1/public/nanumtype1/nanummjmae.pfb></usr/loc
-al/texlive/2013/texmf-dist/fonts/type1/public/nanumtype1/nanummjmb0.pfb></usr/l
-ocal/texlive/2013/texmf-dist/fonts/type1/public/nanumtype1/nanummjmb1.pfb></usr
-/local/texlive/2013/texmf-dist/fonts/type1/public/nanumtype1/nanummjmb2.pfb></u
-sr/local/texlive/2013/texmf-dist/fonts/type1/public/nanumtype1/nanummjmb3.pfb><
-/usr/local/texlive/2013/texmf-dist/fonts/type1/public/nanumtype1/nanummjmb4.pfb
-></usr/local/texlive/2013/texmf-dist/fonts/type1/public/nanumtype1/nanummjmb7.p
-fb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/nanumtype1/nanummjmb7
+ 49i,16n,57p,419b,552s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
+></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
+</usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><
+/usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></
+usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></u
+sr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr
+/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/l
+ocal/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/loc
+al/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local
+/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/t
+exlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texl
+ive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive
+/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/20
+13/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/201
+3/texmf-dist/fonts/type1/public/nanumtype1/nanummjmac.pfb></usr/local/texlive/2
+013/texmf-dist/fonts/type1/public/nanumtype1/nanummjmad.pfb></usr/local/texlive
+/2013/texmf-dist/fonts/type1/public/nanumtype1/nanummjmae.pfb></usr/local/texli
+ve/2013/texmf-dist/fonts/type1/public/nanumtype1/nanummjmb0.pfb></usr/local/tex
+live/2013/texmf-dist/fonts/type1/public/nanumtype1/nanummjmb1.pfb></usr/local/t
+exlive/2013/texmf-dist/fonts/type1/public/nanumtype1/nanummjmb2.pfb></usr/local
+/texlive/2013/texmf-dist/fonts/type1/public/nanumtype1/nanummjmb3.pfb></usr/loc
+al/texlive/2013/texmf-dist/fonts/type1/public/nanumtype1/nanummjmb4.pfb></usr/l
+ocal/texlive/2013/texmf-dist/fonts/type1/public/nanumtype1/nanummjmb5.pfb></usr
+/local/texlive/2013/texmf-dist/fonts/type1/public/nanumtype1/nanummjmb7.pfb></u
+sr/local/texlive/2013/texmf-dist/fonts/type1/public/nanumtype1/nanummjmb8.pfb><
+/usr/local/texlive/2013/texmf-dist/fonts/type1/public/nanumtype1/nanummjmb9.pfb
+></usr/local/texlive/2013/texmf-dist/fonts/type1/public/nanumtype1/nanummjmba.p
+fb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/nanumtype1/nanummjmbb
 .pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/nanumtype1/nanummjm
-b8.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/nanumtype1/nanumm
-jmb8.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/nanumtype1/nanu
-mmjmb9.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/nanumtype1/na
-nummjmb9.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/nanumtype1/
-nanummjmba.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/nanumtype
-1/nanummjmba.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/nanumty
-pe1/nanummjmbb.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/nanum
-type1/nanummjmbc.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/nan
-umtype1/nanummjmbe.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/n
-anumtype1/nanummjmc0.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public
-/nanumtype1/nanummjmc1.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/publ
-ic/nanumtype1/nanummjmc2.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/pu
-blic/nanumtype1/nanummjmc5.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/
-public/nanumtype1/nanummjmc6.pfb></usr/local/texlive/2013/texmf-dist/fonts/type
-1/public/nanumtype1/nanummjmc7.pfb></usr/local/texlive/2013/texmf-dist/fonts/ty
-pe1/public/nanumtype1/nanummjmc7.pfb></usr/local/texlive/2013/texmf-dist/fonts/
-type1/public/nanumtype1/nanummjmc8.pfb></usr/local/texlive/2013/texmf-dist/font
-s/type1/public/nanumtype1/nanummjmc9.pfb></usr/local/texlive/2013/texmf-dist/fo
-nts/type1/public/nanumtype1/nanummjmcc.pfb></usr/local/texlive/2013/texmf-dist/
-fonts/type1/public/nanumtype1/nanummjmcd.pfb></usr/local/texlive/2013/texmf-dis
-t/fonts/type1/public/nanumtype1/nanummjmce.pfb></usr/local/texlive/2013/texmf-d
-ist/fonts/type1/public/nanumtype1/nanummjmcf.pfb></usr/local/texlive/2013/texmf
--dist/fonts/type1/public/nanumtype1/nanummjmd0.pfb></usr/local/texlive/2013/tex
-mf-dist/fonts/type1/public/nanumtype1/nanummjmd1.pfb></usr/local/texlive/2013/t
-exmf-dist/fonts/type1/public/nanumtype1/nanummjmd2.pfb></usr/local/texlive/2013
-/texmf-dist/fonts/type1/public/nanumtype1/nanummjmd3.pfb></usr/local/texlive/20
-13/texmf-dist/fonts/type1/public/nanumtype1/nanummjmd4.pfb></usr/local/texlive/
-2013/texmf-dist/fonts/type1/public/nanumtype1/nanummjmd5.pfb></usr/local/texliv
-e/2013/texmf-dist/fonts/type1/public/nanumtype1/nanummjmd5.pfb></usr/local/texl
-ive/2013/texmf-dist/fonts/type1/public/nanumtype1/nanummjmd6.pfb>
-Output written on Lec1_Intro.pdf (4 pages, 1969500 bytes).
+bc.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/nanumtype1/nanumm
+jmbd.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/nanumtype1/nanu
+mmjmc0.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/nanumtype1/na
+nummjmc1.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/nanumtype1/
+nanummjmc2.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/nanumtype
+1/nanummjmc5.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/nanumty
+pe1/nanummjmc6.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/nanum
+type1/nanummjmc7.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/nan
+umtype1/nanummjmc8.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/n
+anumtype1/nanummjmc9.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public
+/nanumtype1/nanummjmcc.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/publ
+ic/nanumtype1/nanummjmcd.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/pu
+blic/nanumtype1/nanummjmce.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/
+public/nanumtype1/nanummjmd0.pfb></usr/local/texlive/2013/texmf-dist/fonts/type
+1/public/nanumtype1/nanummjmd1.pfb></usr/local/texlive/2013/texmf-dist/fonts/ty
+pe1/public/nanumtype1/nanummjmd2.pfb></usr/local/texlive/2013/texmf-dist/fonts/
+type1/public/nanumtype1/nanummjmd3.pfb></usr/local/texlive/2013/texmf-dist/font
+s/type1/public/nanumtype1/nanummjmd4.pfb></usr/local/texlive/2013/texmf-dist/fo
+nts/type1/public/nanumtype1/nanummjmd5.pfb></usr/local/texlive/2013/texmf-dist/
+fonts/type1/public/nanumtype1/nanummjmd6.pfb></usr/local/texlive/2013/texmf-dis
+t/fonts/type1/public/nanumtype1/nanummjmd7.pfb></usr/local/texlive/2013/texmf-d
+ist/fonts/type1/uhc/umj/umj20.pfb></usr/local/texlive/2013/texmf-dist/fonts/typ
+e1/uhc/umj/umj21.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/uhc/umj/um
+j23.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/uhc/umj/umj24.pfb></usr
+/local/texlive/2013/texmf-dist/fonts/type1/uhc/umj/umj26.pfb></usr/local/texliv
+e/2013/texmf-dist/fonts/type1/uhc/umj/umj27.pfb></usr/local/texlive/2013/texmf-
+dist/fonts/type1/uhc/umj/umj31.pfb></usr/local/texlive/2013/texmf-dist/fonts/ty
+pe1/uhc/umj/umj35.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/uhc/umj/u
+mj36.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/uhc/umj/umj37.pfb>
+Output written on Lec2_vector.pdf (13 pages, 2164509 bytes).
 PDF statistics:
- 318 PDF objects out of 1000 (max. 8388607)
- 193 compressed objects within 2 object streams
- 9 named destinations out of 1000 (max. 500000)
- 79 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 529 PDF objects out of 1000 (max. 8388607)
+ 366 compressed objects within 4 object streams
+ 27 named destinations out of 1000 (max. 500000)
+ 134 words of extra memory for PDF output out of 10000 (max. 10000000)
 
