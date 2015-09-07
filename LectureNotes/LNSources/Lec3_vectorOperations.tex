@@ -162,172 +162,186 @@ $$\theta = \cos^{-1} \frac{14}{\sqrt{13} \sqrt{17}} = \cos^{-1} \frac{14}{\sqrt{
 \end{frame}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\end{document}
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}{좌표축과 좌표 - 1/3 기본 의미}
 
+\begin{itemize}
+\item $\mathbf a  = (k, l)$로 표현된다는 것은 $xy$ 좌표계에서 기저벡터가 되는
+$x$축 단위벡터를 $\mathbf u$와 $y$축 단위벡터를 $\mathbf v$를 다음과 같이 합성한 것
+\end{itemize}
 
-
-
-\subsection{내적을 이용한 벡터의 투영}
-
-어떤 벡터 $\mathbf v$가 $(k, l)$로 표현된다는 것은 $xy$ 직교 좌표계에서 기저벡터(basis vector)가 되는
-$x$축 방향의 단위벡터와 $y$축 방향의 단위벡터의 크기를 적절히 변경하여
-더한 것과 같다. 이를 그림 \ref{fig:vector:vectorComponents}에서 살펴보자.
-$x$축 단위벡터를 $\mathbf u$라고 하고, $y$축 단위벡터를 $\mathbf v$라고 하면, 벡터 $\mathbf v$는 $k \mathbf u$와 $l \mathbf v$를 더하여
-얻을 수 있다.
-
-
-\begin{figure}[h!]
-  \centering
-    \includegraphics[width=10cm]{Math_vector/vectorComponents.eps}
-    \caption{기저벡터의 크기변경 양으로서의 벡터 성분}
-    \label{fig:vector:vectorComponents}
+\begin{figure}
+\includegraphics[width=10cm]{Math_vector/vectorComponents.eps}
 \end{figure}
 
-이제 축을 변경하여 그림 \ref{fig:vector:vectorComponentsArb}와 같이 새로운 직교 좌표계를 고려해 보자.
-여기서는 두 축이 $\mathbf u$와 $\mathbf v$이다. 이 두 축으로 표현하기 위해서는
-원래의 벡터 $\mathbf a$를 $\mathbf u$ 축으로 투영했을 때의 길이 $\alpha$와 $\mathbf v$ 축으로 투영했을 때의 길이 $\beta$를 알아야 한다.
-이 값을 알게 되면 $\mathbf a$는 두 축을 나타내는 기저 벡터들의 합성으로 다음과 같이 표현된다.
-
-$$\mathbf a = \alpha \mathbf u + \beta \mathbf v$$
-
-이것은 이 두 축을 기준으로 하는 좌표계에서는 $\mathbf a$가 $(\alpha, \beta)$의 좌표로 표현된다는 것이다.
+\end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 
-\begin{figure}[h!]
-  \centering
-    \includegraphics[width=10cm]{Math_vector/vectorComponentsArb.eps}
-    \caption{변경된 직교 좌표계의 기저 벡터의 합성으로 표현된 벡터}
-    \label{fig:vector:vectorComponentsArb}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}{좌표축과 좌표 - 2/3 새로운 축의 정의}
+
+\begin{itemize}
+\item 새로운 직교 좌표계를 고려해 보자. 여기서는 두 축이 $\mathbf u$와 $\mathbf v$
+\item $\mathbf a$의 $\mathbf u$ 축 투영 길이 $\alpha$, $\mathbf v$ 축 투영 길이 $\beta$ 계산
+\item 이 두 축을 기준으로 하는 좌표계에서는 $\mathbf a$가 $(\alpha, \beta)$의 좌표로 표현됨
+\end{itemize}
+
+
+\begin{figure}
+\includegraphics[width=10cm]{Math_vector/vectorComponentsArb.eps}
 \end{figure}
 
-그림 \ref{fig:vector:vectorComponentsArb}의 $\mathbf a$가 축 $\mathbf u$와 $\mathbf v$ 방향으로 가지는 길이 $\alpha$와 $\beta$는 어떻게 구할 수 있을까? 이때 내적을 이용할 수 있다. $\alpha$는 $\mathbf a$를 $\mathbf u$ 방향으로 투영한 그림자의 길이이므로,
-$\mathbf a \cdot \mathbf u / || \mathbf u ||$가 된다. 축은 단위 벡터로 표현하므로 $||\mathbf u||=1$이므로,
-$\alpha = \mathbf a \cdot \mathbf u$이다.
+\end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-비슷한 방법으로 $\beta = \mathbf a \cdot \mathbf v$임을 알 수 있다. 따라서 $\mathbf u$와 $\mathbf v$를 축으로 하는 좌표계에서 $\mathbf a$는
-$(\mathbf a \cdot \mathbf u, \mathbf a \cdot \mathbf v)$의 좌표로 표현된다고 할 수 있다.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}{좌표축과 좌표 - 3/3 내적을 이용한 투영 길이 구하기}
 
+\begin{itemize}
+\item $\mathbf a$가 축 $\mathbf u$와 $\mathbf v$ 방향으로 가지는 길이 $\alpha$와 $\beta$는 어떻게 구하나
+	\begin{itemize}
+	\item 내적을 이용
+	\item $\alpha$는 $\mathbf a$를 $\mathbf u$ 방향으로 투영한 그림자의 길이 =  $\mathbf a \cdot \mathbf u / || \mathbf u ||$
+	\item 축은 단위 벡터로 표현하므로 $||\mathbf u||=1$. 따라서 $\alpha = \mathbf a \cdot \mathbf u$
+	\item 비슷한 방법으로 $\beta = \mathbf a \cdot \mathbf v$
+	\item $\mathbf u$와 $\mathbf v$를 축으로 하는 좌표계에서 $\mathbf a$는 $(\mathbf a \cdot \mathbf u, \mathbf a \cdot \mathbf v)$
+	\end{itemize}
+\end{itemize}
+
+\begin{figure}
+\includegraphics[width=6cm]{Math_vector/vectorComponentsArb.eps}
+\end{figure}
+
+\end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}{새로운 좌표축의 정의}
 
 \hrule
-
 \noindent \colorbox{lightgray}{\begin{minipage}{6cm}예제\end{minipage}} 
 
 
-\noindent 그림 \ref{fig:vector:vecProjection}처럼 어떤 벡터 $\mathbf a$가 (4,5)이고, 다른 벡터 $\mathbf b$는 (10,2)라고 하자.
+\noindent 그림처럼 어떤 벡터 $\mathbf a$가 (4,5)이고, 다른 벡터 $\mathbf b$는 (10,2)라고 하자.
 이때 벡터 $\mathbf a$를 $\mathbf b$ 위에 수직방향으로 내린 그림자가 되는 벡터 $\mathbf a_{prj}$을 구하라.
 
-\begin{figure}[h!]
-  \centering
-    \includegraphics[width=8cm]{Math_vector/vecProjection.eps}
-    \caption{다른 벡터 위로 투영된 벡터 구하기}
-    \label{fig:vector:vecProjection}
+\begin{figure}
+    \includegraphics[width=4cm]{Math_vector/vecProjection.eps}
 \end{figure}
 
 \noindent \colorbox{lightgray}{\begin{minipage}{6cm}정답\end{minipage}} 
 
-\noindent $\mathbf a_{prj}$은 그 방향이 $\mathbf b$와 같고, 길이는 투영된 그림자의 길이 $l$이다.
-방향은 단위 벡터로 구할 수 있으므로 $\mathbf b$를 정규화한 $\mathbf b/||\mathbf b||$가 방향벡터이다. 이를 간단히 $\tilde{\mathbf b}$로 쓰자.
-그러면 $\mathbf a_{prj}$은 $l \tilde{\mathbf b}$가 된다. $l$은 내적을 이용하여 구할 수 있다. 그 값은 다음과 같다.
 $$l = \mathbf a \cdot \mathbf b / || \mathbf b||$$
-
-그림에 표시된 바와 같이 $\mathbf a$와 $\mathbf b$의 길이는 각각 $\sqrt{41}$과 $\sqrt{104}$이며, 두 벡터의 내적은 50이므로 다음과 같이 
-$\mathbf a_{prj}$를 구할 수 있다.
-
-\begin{eqnarray}
-\mathbf a_{prj} & = & l \tilde{\mathbf b} \\ \nonumber
-& = & 50 / \sqrt{104} \tilde{\mathbf b} \\ \nonumber
-& = & \frac{50}{\sqrt{104}} \frac{(10,2)}{\sqrt{104}}\\ \nonumber
-& = & \frac{50}{104} (10,2) \\ \nonumber
-& \simeq & 0.48 (10,2) \\ \nonumber
-& \simeq & (4.8, 0.96) \\ \nonumber
-\end{eqnarray}
+$$\mathbf a_{prj} = l \tilde{\mathbf b} = \frac{50}{104} (10,2)  \simeq  (4.8, 0.96) $$
 
 \hrule
 
-\section{벡터의 외적(外積)}
+\end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-벡터의 외적(cross product)은 `벡터 곱(vector product)'라고도 한다. 이 연산은 두 벡터를 피연산자로 하는 이항연산으로 그 결과가 벡터가 되는 곱이다 \cite{wiki:vectorProduct}. 벡터를 곱해 행렬을 얻는 외적(outer product)과 용어의 혼동이 있다. 이와 관련해서는 참고문헌 \cite{wiki:outerProduct}를 참고하라.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}{벡터의 외적(外積) - 의미}
 
+\begin{itemize}
+\item 벡터의 외적(cross product)
+	\begin{itemize}
+	\item 벡터 곱(vector product): 두 벡터를 피연산자로 하는 이항연산으로 그 결과가 벡터
+	\item 벡터를 곱해 행렬을 얻는 외적(outer product)과 용어의 혼동이 있음. 여기서는 결과가 벡터인 곱
+	\end{itemize}
+\item 표현
+	\begin{itemize}
+	\item 두 벡터 $\mathbf a$와 $\mathbf b$의 외적은 $\mathbf a \times \mathbf b$로 표현
+	\item 그 결과는 벡터이므로 $k \mathbf n$ ($\mathbf n$은 $\mathbf a$와 $\mathbf b$에 동시에 수직인 단위벡터)
+	\item 동시에 수직인 벡터는 두 개가 존재. 좌표계에 의해 결정됨.
+	\end{itemize}
+\end{itemize}
 
-어떤 두 벡터 $\mathbf a$와 $\mathbf b$의 외적은 $\mathbf a \times \mathbf b$로 표현한다. 
-그 결과는 벡터이기 때문에 $k \mathbf n$이 된다. 여기서 $\mathbf n$은 $\mathbf a$와 $\mathbf b$에 동시에 수직인 단위벡터이다. 
-동시에 수직인 벡터는 두 가지가 있는데, 그 방향이 서로 반대이다. 이 방향의 결정은 좌표계가 왼손 좌표계인가 오른손 좌표계인가에 따라 달라진다. 
-오른손 좌표계에서 얻어지는 방향을 $\mathbf n_r$, 왼손 좌표계에서 얻어지는 방향을 $\mathbf n_l$이라고 하면 그림 \ref{fig:vector:crossProductDir}와
-같이 방향이 정해진다.
-
-\begin{figure}[h!]
-  \centering
-    \includegraphics[width=6cm]{Math_vector/crossProductDir.eps}
-    \caption{벡터 외적의 방향}
-    \label{fig:vector:crossProductDir}
+\begin{figure}
+\includegraphics[width=5cm]{Math_vector/crossProductDir.eps}
 \end{figure}
 
-결과로 얻어진 벡터의 크기 $k$는 두 벡터의 곱이므로 두 벡터의 크기에 비례하며, 내적이 두 벡터 사잇각의 코사인에 비례했던 것에 반해 외적의 크기는
-두 벡터 사잇각의 사인(sine) 값에 비례한다. 그 크기는 다음과 같다.
+\end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-$$k = ||\mathbf a|| |\mathbf b|| \sin \theta$$
 
-따라서 두 벡터의 외적은 다음과 같이 표현할 수 있다.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}{벡터의 외적(外積) 의미의 수학적 표현}
 
-\begin{eqnarray}
-\mathbf a \times \mathbf b = ||\mathbf a|| |\mathbf b|| \sin \theta \mathbf n
-\label{eq:crossProductComputation}
-\end{eqnarray}
+\begin{itemize}
+\item 두 벡터의 외적
+	\begin{itemize}
+	\item 외적의 크기 $k$
+		\begin{itemize}
+		\item 두 벡터의 크기와 사잇각의 사인(sine) 값에 비례
+		\item $k = ||\mathbf a|| |\mathbf b|| \sin \theta$
+		\end{itemize}
+	\item 외적의 방향 $\mathbf n$
+		\begin{itemize}
+		\item $\mathbf n$: 두 벡터에 수직인 방향 벡터
+		\end{itemize}
+	\end{itemize}
+\item 따라서 두 벡터의 외적은 다음과 같이 표현할 수 있다.
+	\begin{itemize}
+	\item $\mathbf a \times \mathbf b = ||\mathbf a|| |\mathbf b|| \sin \theta \mathbf n$
+	\end{itemize}
+\end{itemize}
 
-이 식이 가진 의미를 다시 살펴보면 외적은 두 벡터에 동시에 수직한 벡터를 구할 수 있으며, 이렇게 얻어진 벡터의 크기는 두 벡터의 크기에 비례하고,
-두 벡터가 수직일 때에 최대치, 서로 같은 방향이나 반대방향일 때에 최소치가 됨을 알 수 있다. 이를 그림 \ref{fig:vector:crossProductDirSize}으로 살펴보자.
-그림에는 벡터  $\mathbf a$와 $\mathbf b$가 서로 다른 각도를 이루고 있을 때에 외적이 어떤 방향과 크기를 갖는지를 보이고 있다.
-왼쪽의 세 가지 예는 두 벡터가 예각을 이루고 있다. 오른손 좌표계라고 하면 이 경우 위로 향하는 수직 벡터가 외적의 방향이 된다.
-마지막 예에서는 두 벡터가 이루는 각이 둔각이 되는데, 이 경우 외적의 방향은 예각일 때와 반대로 아래를 향하고 있다. 
-외적의 크기는 벡터 $\mathbf a$와 $\mathbf b$의 끝점을 연결하고 두 벡터를 선분으로 하는 삼각형의 넓이 $S$에 비례한다. 정확하게는 다음과 같은 관계를 가진다.
 
-$$|| \mathbf a \times \mathbf b || = \frac{1}{2} S $$
+\end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\begin{figure}[h!]
-  \centering
-    \includegraphics[width=12cm]{Math_vector/crossProductDirSize.eps}
-    \caption{벡터 $\mathbf a$와 $\mathbf b$의 외적이 갖는 방향과 크기}
-    \label{fig:vector:crossProductDirSize}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}{외적이 가진 의미}
+
+\begin{itemize}
+\item 외적을 표현하는 식 $\mathbf a \times \mathbf b = ||\mathbf a|| |\mathbf b|| \sin \theta \mathbf n$의 의미
+	\begin{itemize}
+	\item 외적은 두 벡터에 동시에 수직한 벡터
+	\item 크기는 두 벡터가 수직일 때에 최대, 같은 방향이나 반대방향일 때 최소
+	\item 외적의 크기는 벡터 $\mathbf a$와 $\mathbf b$의 끝점을 연결한 삼각형의 넓이 $S$에 비례
+		\begin{itemize}
+		\item $|| \mathbf a \times \mathbf b || = \frac{1}{2} S $
+		\end{itemize}
+		\end{itemize}
+\end{itemize}
+
+
+\begin{figure}
+\includegraphics[width=12cm]{Math_vector/crossProductDirSize.eps}
 \end{figure}
 
+\end{frame}
 
-\subsection{외적의 계산}
-
-식 \ref{eq:crossProductComputation}에 나타난 외적 표현은 외적이 가진 기하적 의미를 파악하는 데에 도움이 된다. 하지만 외적을 실제로 계산하기 위해 사잇각을 구하고, 그 사인(sine) 값을 구하는 방식으로
-계산을 하지는 않는다. 3차원 벡터의 외적을 구하는 문제부터 살펴 보자.
-
-3차원 벡터 $\mathbf a$와 $\mathbf b$가 다음과 같은 성분을 갖는다고 가정하자.
-
-$$\mathbf a=(a_1, a_2, a_3), \mathbf b=(b_1, b_2, b_3)$$
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 
-이때, 두 벡터의 외적은 다음과 같이 구해진다.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}{외적의 계산}
 
-$$\mathbf a \times \mathbf b = (a_2 b_3 - a_3 b_2, a_3 b_1 - a_1 b_3, a_1 b_2 - a_2 b_1)$$
-
-이것은 다음 장에서 다룰 ``행렬"을 이용한 곱셈으로 표현이 가능하다. 행렬을 다음 장에서 다룰 예정이기 때문에
-행렬과 관련된 용어를 최소로 하여 설명해 보자.
-
-두 벡터 $\mathbf a$와 $\mathbf b$의 외적은
-$\mathbf a$의 성분을 이용하여 ``반대칭(skew-symmetric 혹은 antisymmetric)" 행렬을 만들어 구할 수 있다. 반대칭 행렬은
-행과 열을 뒤집으면 원래 행렬의 부호를 바꾼 것과 같은 행렬이다. 반대칭 행렬은 이 조건만 만족하면 여러 종류를 만들 수 있는데,
-주어진 벡터 $\mathbf a=(a_1, a_2, a_3)$의 각 성분을 이용한 반대칭 행렬을 하나 만들어 보자.
-반대칭 행렬의 특성을 유지하기 위해서는 대각 성분이 반드시 0이어야 한다. 대각 성분을 기준으로 대칭의 위치에 있는 성분들은
-서로 반대 부호를 가진다. 이런 예가 가능할 것이다. 대각 성분은 0으로 나머지 성분의 자리를 서로 바꾸고 음수 기호를 한 칸씩 이동하여 설정하였다.
+\begin{itemize}
+\item 3차원 벡터의 외적을 구하기
+	\begin{itemize}
+	\item $\mathbf a=(a_1, a_2, a_3), \mathbf b=(b_1, b_2, b_3)$
+	\item 두 벡터의 외적: $\mathbf a \times \mathbf b = (a_2 b_3 - a_3 b_2, a_3 b_1 - a_1 b_3, a_1 b_2 - a_2 b_1)$
+	\end{itemize}
+\item ``행렬"을 이용한 곱셈으로 구하기
+	\begin{itemize}
+	\item ``반대칭(skew-symmetric 혹은 antisymmetric)" 행렬 이용
+	\end{itemize}
+\end{itemize}
 
 \begin{eqnarray}
 \mathbf A^* = \left ( 
 \begin{array}{ccc}
 0 & -a_3 & a_2 \\
 a_3 & 0 & -a_1 \\
--a_2 & a_1 & 0
+-a_2 & a_1 & 0 \nonumber
 \end{array}
-\right )
-\label{eq:skewMatrixEx}
+\right ) \nonumber
 \end{eqnarray}
-
-식 \ref{eq:skewMatrixEx}에 나타난 행렬을 $\mathbf b$에 곱해 보자.
 
 \begin{eqnarray}
 \mathbf A^* \mathbf b = \left ( 
@@ -337,39 +351,18 @@ a_3 & 0 & -a_1 \\
 -a_2 & a_1 & 0
 \end{array}
 \right ) \mathbf b
-= (a_2 b_3 - a_3 b_2, a_3 b_1 - a_1 b_3, a_1 b_2 - a_2 b_1 )
-\label{eq:crossProductWSkewMatrix}
+= (a_2 b_3 - a_3 b_2, a_3 b_1 - a_1 b_3, a_1 b_2 - a_2 b_1 ) \nonumber
 \end{eqnarray}
 
-식 \ref{eq:crossProductWSkewMatrix}의 결과는 외적과 일치함을 확인할 수 있다.
+\end{frame}
 
-이제 4차원 이상의 고차 공간에서 외적을 고려해 보자.
-3차원 외적과 같이 두 벡터의 외적이 두 벡터 모두에 직교(orthogonal)하면서, 외적 연산이 반교환법칙(anti-communtative)을 만족하는 경우는
-7차원 하나 뿐임이 알려져 있다 \cite{wiki:sevenDimensionCrossProduct}.
-이때 사용되는 반대칭 행렬은 다음과 같다.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\begin{eqnarray}
-\mathbf A^* = \left ( 
-\begin{array}{ccccccc}
-0 & a_3 & -a_2 & a_5 & -a_4 & -a_7 & a_6 \\
--a_3 & 0 & a_1 & a_6 & a_7 & -a_4 & -a_5 \\
-a_2 & -a_1 & 0 & a_7 & -a_6 & a_5 & -a_4 \\
--a_5 & -a_6 & -a_7 & 0 & a_1 & a_2 & a_3 \\
-a_4 & -a_7 & a_6 & -a_1 & 0 & -a_3 & a_2 \\
-a_7 & a_4 & -a_5 & -a_2 & a_3 & 0 & -a_1 \\
--a_6 & a_5 & a_4 & -a_3 & -a_2 & a_1 & 0 \\
-\end{array}
-\right )
-\label{eq:skewMatrixEx}
-\end{eqnarray}
 
-실제로 외적의 기하적 특성을 활용하여 게임이나 그래픽스 프로그램에서 응용하는 경우는 3차원 공간이 대부분이다.
-따라서 우리는 벡터의 외적 문제를 3차원 공간에서의 문제로 한정해서 다룰 것이다.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}{외적의 연산 법칙들}
 
-3차원 공간에서 벡터의 외적은 반교환법칙이 성립한다. 이는 두 벡터의 순서를 바꾸어 외적 연산을 하면 그 결과는 원래 결과의 반대 부호를 갖는다는 것이다.
-외적 연산과 관련된 법칙들은 다음과 같다.
-
-\begin{eqnarray}
+\begin{eqnarray}\nonumber
 \mathbf a \times \mathbf b = - \mathbf b \times \mathbf a \\ \nonumber
 \mathbf a \times ( \mathbf b \times \mathbf c) = (\mathbf a \times \mathbf b) \times \mathbf c \\ \nonumber
 (\mathbf a + \mathbf b ) \times \mathbf c = (\mathbf a \times \mathbf c) + (\mathbf b \times \mathbf c) \\ \nonumber
@@ -380,85 +373,101 @@ k(\mathbf a \times \mathbf b) = k \mathbf a \times \mathbf b = \mathbf a \times 
 \mathbf b \cdot ( \mathbf a \times \mathbf b) = \vec{0}
 \end{eqnarray}
 
-\subsection{2차원 공간에서의 외적과 외적의 응용}
-
-2차원 공간의 두 벡터 $\mathbf a=(a_x, a_y)$와 $\mathbf b=(b_x, b_y)$의 외적을 구할 수 있을까?
-외적은 앞서 설명한 바와 같이 두 벡터에 동시에 수직인 벡터를 결과로 생성한다.
-그런데 2차원 공간의 어떤 벡터도 두 개의 2차원 벡터에 동시에 수직일 수가 없다.
-그림 \ref{fig:vector:crossProduct2D}를 살펴 보자. 그림의 회색 면은 2차원 공간의 일부이다.
-이 공간에서 정의되는 두 벡터 $\mathbf a$와 $\mathbf b$의 외적은 그림에서 볼 수 있는 바와 같이
-2차원 공간 밖에서 정의된다. 이 외적은 평면에 수직이므로 $x$ 성분과 $y$ 성분이 모두 0이다.
-따라서 이 벡터를 정의한다면 새로운 축 $z$가 필요하며, 이 $z$ 축 성분으로만 표현이 된다.
-외적의 크기가 $\delta$라면, 하나뿐인 $z$축 성분이 바로 $\delta$가 되어야 한다.
+\end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 
-\begin{figure}[h!]
-  \centering
-    \includegraphics[width=12cm]{Math_vector/crossProduct2D.eps}
-    \caption{2차원 벡터 $\mathbf a$와 $\mathbf b$의 외적}
-    \label{fig:vector:crossProduct2D}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}{2차원 공간에서의 외적과 외적의 응용}
+
+\begin{itemize}
+\item 2차원 공간의 두 벡터 $\mathbf a=(a_x, a_y)$와 $\mathbf b=(b_x, b_y)$의 외적은?
+	\begin{itemize}
+	\item 그림의 회색 면은 2차원 공간의 일부
+	\item 두 벡터 $\mathbf a$와 $\mathbf b$의 외적은 2차원 공간 밖에서 정의
+	\item 축 $z$가 필요하며, 이 $z$ 축 성분으로만 표현
+	\end{itemize}
+\end{itemize}
+
+\begin{figure}
+\includegraphics[width=12cm]{Math_vector/crossProduct2D.eps}
 \end{figure}
 
-
-2차원 벡터의 내적이 2차원 공간 밖에 정의가 되고, 이것은 새로운 차원을 요구하므로 
-2차원 벡터의 내적은 3차원 벡터라고 볼 수 있다.
-이것은 2차원 벡터 $\mathbf a = (a_x, a_y)$와 $\mathbf b= (b_x, b_y)$를 3차원 벡터로 가정하여 $z$ 축 성분을 0으로 놓고 다음과 같이 
-외적을 구한 결과와 같다. 
-
-$$\mathbf a = (a_x , a_y, 0)$$
-$$\mathbf b = (b_x , b_y, 0)$$
-$$\mathbf a \times \mathbf b = (0, 0, a_x b_y - a_y b_x )$$
-
-여기서 마지막 $z$ 성분의 값으로 여러 가지를 알 수가 있다. 이 값을 $\delta$라고 하면 $\delta>0$인 경우는 $\mathbf b$가 $\mathbf a$의 진행 방향을 기준으로
-왼쪽에 있다는 것을 의미하며, 반대로 $\delta<0$인 경우는 오른쪽에 있다는 것이다.
-그리고 그 절대값은 앞서 설명한 바와 같이 두 벡터 사이에 만들어지는 삼각형의 크기에 비례한다.
+\end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}{2차원 공간에서의 외적과 외적의 응용}
+\begin{itemize}
+\item 2차원 벡터의 외적이 2차원 공간 밖에 정의가 되고, 이것은 3차원 벡터라고 볼 수 있다.
+\item 2차원 벡터 $\mathbf a = (a_x, a_y)$와 $\mathbf b= (b_x, b_y)$를 3차원 벡터로 가정
+	\begin{itemize}
+	\item $\mathbf a = (a_x , a_y, 0)$
+	\item $\mathbf b = (b_x , b_y, 0)$
+	\item $\mathbf a \times \mathbf b = (0, 0, a_x b_y - a_y b_x )$
+	\end{itemize}
+\end{itemize}
+
+\begin{itemize}
+\item $z$ 성분의 값으로 알 수 있는 것들  (이를 $\delta$라고 하자) 
+	\begin{itemize}
+	\item $\delta>0$인 경우는 $\mathbf b$가 $\mathbf a$의 진행 방향을 기준으로 왼쪽에 있음
+	\item $\delta<0$인 경우는 오른쪽
+	\item 절대값은 두 벡터 사이에 만들어지는 삼각형의 크기에 비례
+	\end{itemize}
+\end{itemize}
+
+\end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}{삼각형 넓이 구하기}
 
 \hrule
-
 \noindent \colorbox{lightgray}{\begin{minipage}{6cm}예제\end{minipage}} 
 
-
-\noindent  세 개의 꼭지점 좌표가 (2,1), (8,4), (4,8)이라고 할 때,
-이 삼각형의 넓이 $S$를 구하라.
+\noindent 꼭지점 좌표가 (2,1), (8,4), (4,8)인 삼각형의 넓이 $S$를 구하라.
 
 \noindent \colorbox{lightgray}{\begin{minipage}{6cm}정답\end{minipage}} 
 
-그림 \ref{fig:vector:triangleArea}를 보자. 이 문제를 벡터를 이용하여 풀기 위해서는 꼭지점의 좌표가 아니라
-이 삼각형을 만들어 내는 두 개의 벡터가 필요하다. 꼭지점들을 각각 $\mathbf a, \mathbf b, \mathbf c$로 표현하자.
-우리는 $\mathbf a$에서 $\mathbf b$로 가는 벡터를 구할 수 있고, 이를 $\mathbf u$라고 부를 수 있다. 이 벡터는 (6,3)이 된다.
-비슷한 방식으로 $\mathbf a$에서 $\mathbf c$로 가는 벡터를 $\mathbf v$라고 이름 붙일 수 있고, 그 값은 (2,7)이다.
-이 두 벡터가 삼각형을 만들어 낸다. 삼각형의 넓이는 이 두 벡터의 외적이 가지는 크기의 반이다.
-따라서 넓이는 다음과 같다.
+{\small 꼭지점들을 각각 $\mathbf a, \mathbf b, \mathbf c$로 표현하자.
+우리는 $\mathbf a$에서 $\mathbf b$로 가는 벡터를 구할 수 있고, $\mathbf u = (6,3)$가 된다.
+비슷한 방식으로 $\mathbf a$에서 $\mathbf c$로 가는 벡터는 $\mathbf v = (2,7)$이다.
+삼각형의 넓이는 이 두 벡터의 외적이 가지는 크기의 반이다.}
+
 $$S = \frac{1}{2} ||\mathbf a \times \mathbf b || = \frac{6 \cdot 7 - 3 \cdot 2}{2} = 18$$
 
-\begin{figure}[h!]
-  \centering
-    \includegraphics[width=8cm]{Math_vector/triangleArea.eps}
-    \caption{삼각형 세 개의 꼭지점 좌표로 면적 구하기}
-    \label{fig:vector:triangleArea}
+\begin{figure}
+    \includegraphics[width=4cm]{Math_vector/triangleArea.eps}
 \end{figure}
 
 \hrule
 
-\vspace{2mm}
+\end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-예제와 같이 외적은 삼각형의 면적을 구하는 데에 유용하다. 또 다른 응용으로는 평면을 표현하는 것이다.
-평면은 그 평면 위의 삼각형으로 표현할 수 있다. 3차원 공간에서 삼각형은 세 개의 점, 즉, 9 개의 원소로 표현된다. 
-좀 더 효율적인 방법은 어떠한 것이 있을까? 그것은 평면에 수직인 벡터(이를 법선 벡터라고 한다)로 표현하는 것이다.
-하지만, 법선 벡터만 있으면 하나의 평면이 아니라 동일한 방향을 쳐다보는 모든 평면이 된다.
-이를 해결하기 위해 법선 벡터와 함께 평면이 지나는 점 하나를 같이 사용하면 유일한 평면이 얻어진다.
-그러면 6 개의 실수로 평면을 표현할 수 있다.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}{외적과 평면}
 
-이렇게 어떤 평면의 법선 벡터를 구할 때에 가장 빈번히 사용되는 수학적 기법이 ``법선(normal) 벡터"이다.
-이 법선 벡터를 구하는 일은 벡터의 외적을 이용하는 것이 가장 일반적인 방법이다. 컴퓨터 그래픽스에서 모델링(modeling)을 위해서
-이러한 법선 벡터를 알아야 하는 경우가 빈번하며, 렌더링 과정에서 반사를 계산하는 등의 일에도 표면 법선을 계산해야 하는 일이 빈번하다.
-이런 경우 이 장에서 다룬 벡터의 외적이 매우 유용하게 활용된다.
+\begin{itemize}
+\item 외적의 또 다른 응용
+	\begin{itemize}
+	\item 평면 표현
+		\begin{itemize}
+		\item 평면은 그 평면 위의 삼각형으로 표현 가능 = 3 개의 점 = 9 개의 원소
+		\item 좀 더 효율적인 방법 = 법선 벡터를 이용하기
+		\item 법선벡터 = 평면이 바라보는 방향을 나타내는 벡터
+		\item 법선벡터가 나타내는 것은 하나의 평면이 아니라 동일한 방향을 쳐다보는 모든 평면
+		\item 평면의 표현 = (법선벡터, 평면이 지나는 점) : 6 개의 원소로 표현 가능
+		\item 법선벡터 구하기: 벡터의 외적을 이용
+		\end{itemize}
+	\end{itemize}
+\end{itemize}
 
-
-
-
-벡터에 대한 깊이 있는 이해를 위해서는 \cite{mortenson1999mathematics,dunn20113d} 등을 참고하라.
+\end{frame}
 
 \end{document}
+
+
