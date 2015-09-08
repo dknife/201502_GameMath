@@ -387,70 +387,79 @@ $\mathbf I$는 항등행렬
 \end{frame}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\end{document}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}{행렬식 1/2}
 
-
-
-\section{행렬식}
-\index{matrix!determinant}\index{행렬!행렬식}\index{행렬식}
-
-행렬식은 정방행렬에서 정의된다. 어떤 행렬 $\mathbf A$의 행렬식은 $det \mathbf A$, $det(\mathbf A)$, 또는 $|\mathbf A|$로 표현한다.
-행렬식을 계산하기 위해서는 다음과 같은 개념에 대한 이해를 해야 한다.
 \begin{itemize}
-\item 소행렬식(minor)
-\item 여인자(cofactor)
+\item 행렬식은 정방행렬에서 정의된다.
+\item 어떤 행렬 $\mathbf A$의 행렬식은 $det \mathbf A$, $det(\mathbf A)$, 또는 $|\mathbf A|$로 표현
+\item 행렬식을 계산하기 위해 필요한 개념
+	\begin{itemize}
+	\item 소행렬식(minor)
+	\item 여인자(cofactor)
+	\end{itemize}
+\item 소행렬식
+	\begin{itemize}
+	\item $\mathbf A \in \mathbb R^{m \times n}$: 이 행렬은 $m \times n$개의 소행렬식(minor) $M_{ij}$를 가짐
+	\item 각 $M_{ij}$는 $\mathbf A$ 행렬의 $i$ 행 벡터 전체와 $j$ 열 벡터 전체를 제거하고 얻어지는 행렬($\in \mathbb R^{m-1 \times n-1}$)의 
+행렬식
+	\end{itemize}
+\item 여인자
+	\begin{itemize}
+	\item 행렬 $\mathbf A$의 여인자는 소행렬식이 구해지는 위치마다 결정
+	\item 다음과 같이 정의되는 $m \times n$개의 여인자 $C_{ij}$가 존재
+	\item $C_{ij} = (-1)^{i+j} M_{ij}$
+	\end{itemize}
 \end{itemize}
 
-\subsection{소행렬식}
-\index{matrix!minor}\index{행렬!소행렬식}\index{소행렬식}
+\end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-행렬 $\mathbf A$가 $\mathbb R^{m \times n}$에 속한 행렬이라고 할 때, 이 행렬은
-모두 $m \times n$개의 소행렬식(minor) $M_{ij}$를 가진다.
-이때 각 $M_{ij}$는 $\mathbf A$ 행렬의 $i$ 행 벡터 전체와 $j$ 열 벡터 전체를 제거하고 얻어지는 행렬($\in \mathbb R^{m-1 \times n-1}$)의 
-행렬식이다.
 
-\subsection{여인자}
-\index{matrix!cofactor}\index{행렬!여인자}\index{여인자}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}{행렬식 2/2}
 
-행렬 $\mathbf A$의 여인자는 소행렬식이 구해지는 위치마다 결정된다.
-따라서 $m \times n$개의 여인자 $C_{ij}$가 존재하며, 다음과 같이 정의된다.
-
-$$C_{ij} = (-1)^{i+j} M_{ij}$$
-
-행렬 $\mathbf A \in \mathbb R^{m \times n}$의 $i$ 행, $j$ 열에서 정의되는 여인자를 $C_{ij}$라고 하고, 행렬의 각 성분은 $A_{ij}$라고 하면,
-이 행렬의 행렬식은 다음과 같다.
-
+\begin{itemize}
+\item 행렬 $\mathbf A \in \mathbb R^{m \times n}$의 $i$ 행, $j$ 열 여인자 $C_{ij}$를 이용한 행렬식 계산
+\end{itemize}
 \begin{eqnarray}
 det \mathbf A &= | \mathbf A | &= \sum_{j=1}^n A_{1j} C_{1j} = \sum_{j=1}^n A_{2j} C_{2j} = \cdots = \sum_{j=1}^n A_{mj} C_{mj} \\ \nonumber
 & &= \sum_{i=1}^m A_{i1} C_{i1} = \sum_{i=1}^m A_{i2} C_{i2} = \cdots = \sum_{j=1}^n A_{in} C_{in} 
 \end{eqnarray}
 
-이것은 행렬 $\mathbf A$에서 임의의 행 벡터 $\mathbf A_{i,*}$를 선택하고, 여인자 $C_{ij}$를 원소로 하는 행렬 $\mathbf C$의 동일한 위치에 있는 행 벡터 $\mathbf C_{i,*}$를 선택하여 둘의 내적 $\mathbf A_{i,*} \mathbf C_{i,*}^{\rm T}$를 구하는 것이다.
-또한, 이 값은 $\mathbf A$에서 임의의 열 벡터 $\mathbf A_{*,j}$를 선택하고, 행렬 $\mathbf C$의 동일한 위치에 있는 열 벡터 $\mathbf C_{*,j}$를 선택하여 둘의 내적 $\mathbf A_{*,j}^{\rm T} \mathbf C_{*,j}$를 구하는 것이다.
+\begin{itemize}
+\item $\mathbf A$의 임의의 행 벡터 $\mathbf A_{i,*}$와 $\mathbf C$의 동일 위치 행 벡터 $\mathbf C_{i,*}$의 내적
+\item $\mathbf A$의 임의의 열 벡터 $\mathbf A_{*,j}$와 $\mathbf C$의 동일 위치 열 벡터 $\mathbf C_{*,j}$의 내적
+\end{itemize}
 
 \begin{eqnarray}
 det \mathbf A = | \mathbf A | = \mathbf A_{i,*} \mathbf C_{i,*}^{\rm T} = \mathbf A_{*,j}^{\rm T} \mathbf C_{*,j}
 \end{eqnarray}
 
-%%%%%%%%% 예제 시작
+\end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}{예제}
 \hrule
 
 \noindent \colorbox{lightgray}{\begin{minipage}{6cm}예제\end{minipage}} 
 
 
-\noindent  어떤 행렬 $\mathbf A$가 있다. 이 행렬의 원소는 다음과 같다. 이 행렬의 행렬식을 구하라.
-$$
+\noindent  다음 행렬의 행렬식을 구하라.
+$
 \left [
 \begin{array}{cc}
 A_{11} & A_{12} \\
 A_{21} & A_{22}
 \end{array}
 \right ]
-$$
+$
 
 \noindent \colorbox{lightgray}{\begin{minipage}{6cm}정답\end{minipage}} 
 
-우선 여인자를 구한다. 여인자 $M_{ij}$를 $i$ 행 $j$ 열 원소로 하는 행렬을 $\mathbf M$이라고 하자. 그러면 이 행렬은 다음과 같다.
+여인자 $M_{ij}$를 구한다.
 $$
 \mathbf M = 
 \left [
@@ -467,10 +476,7 @@ det \left [ A_{12} \right ] &
 det \left [ A_{11} \right ] 
 \end{array}
 \right ]
-$$
-원소가 하나인 행렬의 행렬식은 그 원소의 값이므로, $\mathbf M$은 다음과 같다.
-$$
-\mathbf M = 
+= 
 \left [
 \begin{array}{cc}
 A_{22} & A_{21} \\
@@ -498,54 +504,16 @@ $$
 
 $\mathbf A$의 임의의 행 벡터를 선택할 수 있으므로 우선 1행을 가지고 오자. 그리고 여인자 행렬 $\mathbf C$의 1행을 가지고 와서, 두 행 벡터의 내적을 
 구하면 다음과 같다.
-\begin{eqnarray}
-det \mathbf A & = \mathbf A_{1,*}  \mathbf C_{1,*}^{\rm T} & =  A_{11}  A_{22} +  A_{12} (-  A_{21}) \\ \nonumber
-& & =   A_{11}  A_{22} -  A_{12}  A_{21} \\ \nonumber
-\end{eqnarray}
-
-2행을 취해도 동일하다.
-
-\begin{eqnarray}
-det \mathbf A & =  \mathbf A_{2,*} \mathbf C_{2,*}^{\rm T} & =  A_{21} (-  A_{12}) +  A_{22}  A_{11} \\ \nonumber
-& & =   A_{11}  A_{22} -  A_{12}  A_{21} \\ \nonumber
-\end{eqnarray}
-
-열 벡터를 취해 보자. 두 행렬의 1열 벡터들을 내적한 결과는 다음과 같고,
-
-\begin{eqnarray}
-det \mathbf A & = \mathbf A_{*,1}^{\rm T} \mathbf C_{*,1} & =  A_{11}  A_{22} +  A_{12} (  A_{11} \\ \nonumber
-& & =   A_{11}  A_{22} -  A_{12}  A_{21} \\ \nonumber
-\end{eqnarray}
-
-2열 벡터들을 내적한 결과는 다음과 같다.
-
-\begin{eqnarray}
-det \mathbf A & = \mathbf A_{*,2}^{\rm T} \mathbf C_{*,2} & =  A_{12} (-  A_{22}) +  A_{22} (  A_{11} \\ \nonumber
-& & =   A_{11}  A_{22} -  A_{12}  A_{21} \\ \nonumber
-\end{eqnarray}
-
-어떤 행렬이 $\mathbb R^{2 \times 2}$에 속한 경우 이 행렬의 행렬식은 다음과 같다.
-$$
-det \left [
-\begin{array}{cc}
-A_{11} & A_{12} \\
-A_{21} & A_{22}
-\end{array}
-\right ] =  A_{11}  A_{22} -  A_{12}  A_{21}
-$$
+$$det \mathbf A  = \mathbf A_{1,*}  \mathbf C_{1,*}^{\rm T}  =  A_{11}  A_{22} +  A_{12} (-  A_{21}) $$
 
 \hrule
-\vspace{2mm}
+\end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-%%%%%%%%%%%%% 예제 끝
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}{행렬식의 기하적 의미}
 
-\section{행렬과 행렬식의 기하적 의미}
-
-\subsection{행렬식의 이해}
-\index{matrix!geometric understanding}\index{행렬!기하적 이해}\index{행렬의 기하적 이해}
-어떤 두 열 벡터 $\mathbf a = (a_x a_y )^{\rm T}$와 $\mathbf b = (b_x , b_y)^{\rm T}$가 있다.
-이 두 벡터를 열로 하는 행렬 $\mathbf A$는 다음과 같다.
-
+두 열 벡터 $\mathbf a = (a_x a_y )^{\rm T}$와 $\mathbf b = (b_x , b_y)^{\rm T}$를 열로 하는 행렬 $\mathbf A$
 $$\mathbf A = \left [ 
 \begin{array}{cc}
 a_x & b_x \\
@@ -553,34 +521,24 @@ a_y & b_y
 \end{array}
 \right ]
 $$
+이 두 벡터를 두 개의 변으로 하는 평행사변형의 넓이가 행렬 $\mathbf A$의 행렬식
 
-\begin{figure}[h!]
-  \centering
-    \includegraphics[width=8cm]{Math_matrix/determinantGeo.eps}
-    \caption{2차원 공간에서 두 개의 열 벡터가 만들어내는 평행사변형의 넓이}
-    \label{fig:matrix:determinantGeo}
+
+
+\begin{figure}
+\includegraphics[width=7cm]{Math_matrix/determinantGeo.eps}
 \end{figure}
 
-
-이 두 벡터는 2차원 공간에 존재하는 벡터로 그림 \ref{fig:matrix:determinantGeo}와 같이 표현할 수 있다.
-이 두 벡터를 두 개의 변으로 하는 평행사변형은 단 하나만 존재하는데, 이 평행사변형의 넓이를 그림과 같이 $S$라고 하자.
-이 $S$는 그림에 나타난 가장 큰 사각형의 넓이 $(a_x+b_x)(a_y+b_y)$에서
-네 개의 삼각형과 두 개의 작은 사각형 넓이를 제외하면 된다.
-작은 사각형의 넓이는 $a_y b_x$이다.
-작은 삼각형은 $\frac{1}{2} a_x a_y$가 두 개, $\frac{1}{2} b_x b_y$가 두 개이다.
-따라서 $S = (a_x+b_x)(a_y+b_y) - ( a_x a_y  + b_x b_y +  a_y b_x + a_y b_x ) $이며,
-이는 $ a_x a_y + a_x b_y + a_y b_x + b_x b_y -  a_x a_y  - b_x b_y - 2 a_y b_x  $이다.
-이를 정리하면 쉽게 $S = a_x b_y - a_y b_x$임을 알 수 있고,
-이 값은 행렬 $\mathbf A$의 행렬식 $|\mathbf A|$, 즉 $det \mathbf A$이다.
+\end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 
-이제 $\mathbf A \in \mathbb R^{3 \times 3}$인 경우를 살펴 보자. 
-이 행렬 $\mathbf A$는 다음과 같이 세 개의 벡터 $\mathbf a, \mathbf b, \mathbf c$가 포함된 것으로 볼 수 있다.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}{$3 \times 3$ 행렬의 행렬식 의미}
+
+$\mathbf A \in \mathbb R^{3 \times 3}$는 세 개의 벡터 $\mathbf a, \mathbf b, \mathbf c$를 포함
 
 $$
-\mathbf a = \left ( \begin{array}{c} a_1 \\ a_2 \\ a_3 \end{array} \right ) ,
-\mathbf b = \left ( \begin{array}{c} b_1 \\ b_2 \\ b_3 \end{array} \right ) ,
-\mathbf c = \left ( \begin{array}{c} c_1 \\ c_2 \\ c_3 \end{array} \right ) ~~~~~~
 \mathbf A = \left [ \begin{array}{ccc}
 a_1 & b_1 & c_1 \\
 a_2 & b_2 & c_2 \\
@@ -591,100 +549,29 @@ a_3 & b_3 & c_3
 \end{array} \right ] 
 $$
 
-이 세 개의 벡터들은 3차원 공간에서 그림 \ref{fig:matrix:determinantGeo3D}와 같이 평행육면체를 하나 만들어낸다.
-이 평행육면체의 부피는 이 육면체를 만들어 내는 세 개의 벡터들로 구성된 행렬의 행렬식과 같다.
+이 세 개의 벡터들이 만드는 평행육면체의 크기가 세 개의 벡터들로 구성된 행렬의 행렬식
 
 
-\begin{figure}[h!]
-  \centering
-    \includegraphics[width=8cm]{Math_matrix/determinantGeo3D.eps}
-    \caption{3차원 공간에서 두 개의 열 벡터가 만들어내는 평행육면체의 부피}
-    \label{fig:matrix:determinantGeo3D}
+\begin{figure}
+\includegraphics[width=7cm]{Math_matrix/determinantGeo3D.eps}
 \end{figure}
 
-\subsection{행렬에 대한 기하적 이해}
-
-이제 행렬과 행렬식에 대한 기하적 개념을 정리해 보자. 이를 위해서 그림 \ref{fig:matrix:matrixConcept}를 참조하자.
-그림에는 검정색 굵은 화살표로 $x$축, $y$축 $z$축이 그려져 있다.
-이 축들을 벡터로 표현하면 다음과 같다.
-
-$$
-x = \left [ 
-\begin{array}{c}
-1 \\
-0 \\
-0 
-\end{array}
-\right ], ~~~
-y = \left [ 
-\begin{array}{c}
-0 \\
-1 \\
-0 
-\end{array}
-\right ], ~~~
-z = \left [ 
-\begin{array}{c}
-0 \\
-0 \\
-1 
-\end{array}
-\right ]
-$$
+\end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 
-이 세 축을 열벡터로 하는 행렬을 만들면 $3 \times 3$의 항등행렬이 된다.
-이 항등행렬은 세 개의 축을 모서리로 하는 육면체 공간을 나타내고 있으며, 그 부피는 1이다.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}{행렬과 행렬식의 기하적 의미}
 
-$$\mathbf I = \left [ x~ y~ z \right ] =
-\left [
-\begin{array}{ccc}
-1 & 0 & 0 \\
-0 & 1 & 0 \\
-0 & 0 & 1
-\end{array}
-\right ]
-$$
-
-\begin{figure}[h!]
-  \centering
-    \includegraphics[width=14cm]{Math_matrix/matrixConcept.eps}
-    \caption{벡터 더하기 연산의 기하적 의미}
-    \label{fig:matrix:matrixConcept}
+\begin{figure}
+\includegraphics[width=8cm]{Math_matrix/matrixConcept.eps}
 \end{figure}
 
-이제 붉은 색으로 그려진 세 개의 축 $\mathbf u$, $\mathbf v$, $\mathbf w$를 살펴 보자.
-이들을 세 개의 열 벡터로 하는 행렬 $\mathbf M$은 다음과 같다.
+\end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-$$\mathbf M = \left [ \mathbf u ~ \mathbf v ~ \mathbf w \right ] =
-\left [
-\begin{array}{ccc}
-u_x & v_x & w_x \\
-u_y & v_y & w_y \\
-u_z & v_z & w_z
-\end{array}
-\right ]
-$$
-
-이 행렬을 표현하는 세 개의 열 벡터를 모서리로 만들어지는 평행육면체가 붉은 색으로 그려져 있다.
-이 육면체의 부피가 $det \mathbf M$이다.
-
-이 행렬 $\mathbf M$은 어떤 일을 하는 것일까.
-이 행렬에 세 개의 축을 곱해 보자. 다음과 같은 결과를 얻을 것이다.
-
-$$\mathbf u = \mathbf M x, ~~~\mathbf v = \mathbf M y, ~~~\mathbf w = \mathbf M z$$
-
-이것은 $\mathbf I$가 표현하는 부피 1의 공간(정육면체로 그려져 있는 공간)의 모든 점들에 $\mathbf M$을 곱하면
-붉은 색으로 그려진 평행육면체가 표현하는 공간으로 옮겨진다는 것을 의미한다.
-이 평행육면체의 부피 $det \mathbf M$은 단위 부피의 공간을 얼마나 확대하거나 축소하여 옮겨 놓는지를 알려주는 값이 된다.
-
-
-어떤 좌표 $\mathbf p$가 세 축이 만들어내는 육면체의 모서리에 있다.
-이 점에 $\mathbf M$을 곱하면 이것은 행렬 $\mathbf M$의 세 열 벡터가 만들어 내는 공간의 모서리 $\mathbf p'$로
-옮겨가는 데, 그 값은 $\mathbf M \mathbf p$이다.
-
-
-\subsection{행렬식의 특성}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}{행렬식의 특성}
 
 몇 가지 기억해 둘 행렬식의 특성은 다음과 같다.
 
@@ -694,51 +581,66 @@ $$\mathbf A \in \mathbb R^{n \times n} \Rightarrow | k \mathbf A | = k^n |\mathb
 
 $$|\mathbf {AB}| = |\mathbf A| |\mathbf B|$$
 
-\section{역행렬(inverse matrix)}
-\index{matrix!inverse}\index{행렬!역행렬}\index{역행렬}
+\end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-역행렬은 정방행렬에만 존재한다. 어떤 행렬 $\mathbf A$가 정방행렬이고 역행렬이 존재한다면,
-이 역행렬을 $\mathbf A^{-1}$로 표현한다. 이때 이 역행렬 $\mathbf A^{-1}$은 다음과 같은 조건을 만족한다.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}{역행렬}
 
-$$\mathbf {AA}^{-1} = \mathbf I$$
-$$\mathbf A^{-1} \mathbf A = \mathbf I$$
-
-모든 정방행렬이 역행렬을 가지는 것은 아니다. 역행렬이 존재하는 행렬을 가역행렬(invertible matrix)라고 하며,
-역행렬이 존재하지 않는 행렬은 특이행력(singular matrix)라고 한다.
-
-어떤 행렬 $\mathbf A$가 정방행렬이 아니고 $\mathbb R^{m \times n}$에 속한다고 하자.
-다른 어떤 행렬 $\mathbf B$가 $\mathbb R^{n \times m}$에 속하면, 두 행렬의 곱 $\mathbf {AB}$는 $\mathbb R^{m \times m}$에 속하는 정방행렬이
-된다. 만약 $\mathbf {AB} = \mathbf I \in \mathbb R^{n \times n}$이라면,
-$\mathbf B$를 $\mathbf A$의 의사 역행렬(pseudo-inverse)라고 한다.
-
-\subsection{역행렬의 계산}
-
-역행렬의 계산은 수반행렬(adjoint matrix)를 이용하여 쉽게 정의할 수 있다.
-어떤 행렬 $\mathbf A$의 수반행렬을 $adj \mathbf A$로 표현하며, 이 수반행렬은 여인자를 이용하여 다음과 같이 정의된다.
 
 \begin{itemize}
-\item 행렬 $\mathbf A$의 수반행렬: 행렬 $\mathbf A$의 $i$ 행과 $j$ 열에 대해 정의되는 여인자 $C_ij$를 $j$ 행 $i$ 열 성분으로 하는 행렬.
+\item 역행렬은 정방행렬에만 존재
+\item $\mathbf A$의 역행렬이 존재한다면, 이 역행렬을 $\mathbf A^{-1}$로 표현
+\item 역행렬 $\mathbf A^{-1}$은 다음과 같은 조건을 만족
+	\begin{itemize}
+	\item $\mathbf {AA}^{-1} = \mathbf I$
+	\item $\mathbf A^{-1} \mathbf A = \mathbf I$
+	\end{itemize}
 \end{itemize}
 
-따라서 수반행렬은 $C_{ij}$를 성분으로 $i$행 $j$열 성분으로 하는 행렬 $\mathbf C$의 전치(transpose)이며, 다음과 같다. 
+\begin{itemize}
+\item 역행렬이 존재하는 행렬을 가역행렬(invertible matrix)
+\item 역행렬이 존재하지 않는 행렬은 특이행렬(singular matrix)
+\end{itemize}
 
-\begin{eqnarray}
-adj \mathbf A = 
+\begin{itemize}
+\item 의사 역행렬(pseudo-inverse)
+	\begin{itemize}
+	\item  행렬 $\mathbf A$가 정방행렬이 아니고 $\mathbb R^{m \times n}$에 속한다고 하자. 다른 어떤 행렬 $\mathbf B$가 $\mathbb R^{n \times m}$에 속하면, 두 행렬의 곱 $\mathbf {AB}$는 $\mathbb R^{m \times m}$에 속하는 정방행렬이 된다. 만약 $\mathbf {AB} = \mathbf I \in \mathbb R^{n \times n}$이라면, $\mathbf B$를 $\mathbf A$의 의사 역행렬(pseudo-inverse)라고 한다.
+	\end{itemize}
+\end{itemize}
+\end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}{역행렬의 계산}
+
+\begin{itemize}
+\item 역행렬의 계산은 수반행렬(adjoint matrix)를 이용하여 쉽게 정의
+	\begin{itemize}
+	\item 행렬 $\mathbf A$의 수반행렬: 여인자 $C_{ij}$를 성분으로 하는 행렬 $\mathbf C$의 전치(transpose)
+	\end{itemize}
+\end{itemize}
+
+
+$$ adj \mathbf A = 
 \left (
 \begin{array}{cccc}
 C_{11} & C_{21} & \cdots & C_{n1} \\
-C_{21} & C_{22} & \cdots & C_{n2} \\
+C_{12} & C_{22} & \cdots & C_{n2} \\
 \vdots & \vdots & \ddots & \vdots \\
-C_{n1} & C_{2n} & \cdots & C_{nn} \\
+C_{1n} & C_{2n} & \cdots & C_{nn} \\
 \end{array}
 \right )
 = \mathbf C^{\rm T}
-\end{eqnarray}
+$$
  
-수반행렬이 구해지면 다음과 같이 이 수반행렬을 행렬의 행렬식으로 나누면 역행렬이 된다.
+\begin{itemize}
+\item 수반행렬을 행렬의 행렬식으로 나누면 역행렬이 된다.
+\end{itemize}
 
-\begin{eqnarray}
-\mathbf A^{-1} = \frac{adj \mathbf A}{|\mathbf A|} = 
+$$\mathbf A^{-1} = \frac{adj \mathbf A}{|\mathbf A|} = 
 \frac{1}{|\mathbf A|}
 \left (
 \begin{array}{cccc}
@@ -749,6 +651,13 @@ C_{n1} & C_{2n} & \cdots & C_{nn} \\
 \end{array}
 \right )
 = \mathbf C^{\rm T}
-\end{eqnarray}
+$$
 
-식은 간단하지만, 여인자를 구하려면 재귀적으로(recursively) 계속하여 작은 행렬의 여인자를 구해나가야 하므로 실제 계산에 필요한 자원이 매우 큰 문제가 된다.
+식은 간단하지만, 여인자를 구하는 재귀호출이 매우 많은 계산을 요구
+
+\end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\end{document}
+
+

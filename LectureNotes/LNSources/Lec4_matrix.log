@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2014.3.4)  7 SEP 2015 21:00
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2014.3.4)  8 SEP 2015 14:20
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1332,6 +1332,89 @@ pdf used on input line 117.
 
 ] [15
 
+] [16
+
+] [17
+
+] [18
+
+]
+Package epstopdf Info: Source file: <Math_matrix/determinantGeo.eps>
+(epstopdf)                    date: 2014-09-22 13:48:44
+(epstopdf)                    size: 121271 bytes
+(epstopdf)             Output file: <Math_matrix/determinantGeo-eps-converted-t
+o.pdf>
+(epstopdf)                    date: 2014-09-22 13:56:14
+(epstopdf)                    size: 12174 bytes
+(epstopdf)             Command: <repstopdf --outfile=Math_matrix/determinantGeo
+-eps-converted-to.pdf Math_matrix/determinantGeo.eps>
+(epstopdf)             \includegraphics on input line 532.
+Package epstopdf Info: Output file is already uptodate.
+
+<Math_matrix/determinantGeo-eps-converted-to.pdf, id=227, 375.4025pt x 283.0575
+pt>
+File: Math_matrix/determinantGeo-eps-converted-to.pdf Graphic file (type pdf)
+ <use Math_matrix/determinantGeo-eps-converted-to.pdf>
+Package pdftex.def Info: Math_matrix/determinantGeo-eps-converted-to.pdf used o
+n input line 532.
+(pdftex.def)             Requested size: 199.16928pt x 150.17955pt.
+ [19
+
+ <./Math_matrix/determinantGeo-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <Math_matrix/determinantGeo3D.eps>
+(epstopdf)                    date: 2014-09-22 13:56:54
+(epstopdf)                    size: 87761 bytes
+(epstopdf)             Output file: <Math_matrix/determinantGeo3D-eps-converted
+-to.pdf>
+(epstopdf)                    date: 2014-09-22 13:57:00
+(epstopdf)                    size: 10457 bytes
+(epstopdf)             Command: <repstopdf --outfile=Math_matrix/determinantGeo
+3D-eps-converted-to.pdf Math_matrix/determinantGeo3D.eps>
+(epstopdf)             \includegraphics on input line 559.
+Package epstopdf Info: Output file is already uptodate.
+
+<Math_matrix/determinantGeo3D-eps-converted-to.pdf, id=253, 396.48125pt x 247.9
+2625pt>
+File: Math_matrix/determinantGeo3D-eps-converted-to.pdf Graphic file (type pdf)
+
+ <use Math_matrix/determinantGeo3D-eps-converted-to.pdf>
+Package pdftex.def Info: Math_matrix/determinantGeo3D-eps-converted-to.pdf used
+ on input line 559.
+(pdftex.def)             Requested size: 199.16928pt x 124.54541pt.
+
+Overfull \vbox (5.04071pt too high) detected at line 559
+ []
+
+[20
+
+ <./Math_matrix/determinantGeo3D-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <Math_matrix/matrixConcept.eps>
+(epstopdf)                    date: 2014-10-15 12:07:51
+(epstopdf)                    size: 108493 bytes
+(epstopdf)             Output file: <Math_matrix/matrixConcept-eps-converted-to
+.pdf>
+(epstopdf)                    date: 2014-10-15 14:25:23
+(epstopdf)                    size: 12633 bytes
+(epstopdf)             Command: <repstopdf --outfile=Math_matrix/matrixConcept-
+eps-converted-to.pdf Math_matrix/matrixConcept.eps>
+(epstopdf)             \includegraphics on input line 570.
+Package epstopdf Info: Output file is already uptodate.
+
+<Math_matrix/matrixConcept-eps-converted-to.pdf, id=273, 466.74374pt x 393.47pt
+>
+File: Math_matrix/matrixConcept-eps-converted-to.pdf Graphic file (type pdf)
+ <use Math_matrix/matrixConcept-eps-converted-to.pdf>
+Package pdftex.def Info: Math_matrix/matrixConcept-eps-converted-to.pdf used on
+ input line 570.
+(pdftex.def)             Requested size: 227.62204pt x 191.88939pt.
+ [21
+
+ <./Math_matrix/matrixConcept-eps-converted-to.pdf>] [22
+
+] [23
+
+] [24
+
 ]
 \tf@nav=\write6
 \openout6 = `Lec4_matrix.nav'.
@@ -1342,11 +1425,11 @@ pdf used on input line 117.
 \tf@snm=\write8
 \openout8 = `Lec4_matrix.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 390.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 390.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 661.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 661.
  (./Lec4_matrix.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 390.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 390.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 661.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 661.
 Package rerunfilecheck Info: File `Lec4_matrix.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
 
@@ -1354,16 +1437,16 @@ Package rerunfilecheck Info: File `Lec4_matrix.out' has not changed.
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 1.0pt have occurred.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 390.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 661.
  ) 
 Here is how much of TeX's memory you used:
- 18277 strings out of 493315
- 329252 string characters out of 6137905
+ 18415 strings out of 493315
+ 331561 string characters out of 6137905
  421744 words of memory out of 5000000
- 21109 multiletter control sequences out of 15000+600000
- 61890 words of font info for 202 fonts, out of 8000000 for 9000
+ 21222 multiletter control sequences out of 15000+600000
+ 64902 words of font info for 213 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
- 49i,16n,58p,419b,618s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 49i,16n,58p,443b,618s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 ></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb><
 /usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></
@@ -1391,41 +1474,43 @@ exlive/2013/texmf-dist/fonts/type1/public/nanumtype1/nanummjmb2.pfb></usr/local
 /texlive/2013/texmf-dist/fonts/type1/public/nanumtype1/nanummjmb3.pfb></usr/loc
 al/texlive/2013/texmf-dist/fonts/type1/public/nanumtype1/nanummjmb4.pfb></usr/l
 ocal/texlive/2013/texmf-dist/fonts/type1/public/nanumtype1/nanummjmb5.pfb></usr
-/local/texlive/2013/texmf-dist/fonts/type1/public/nanumtype1/nanummjmb7.pfb></u
-sr/local/texlive/2013/texmf-dist/fonts/type1/public/nanumtype1/nanummjmb8.pfb><
-/usr/local/texlive/2013/texmf-dist/fonts/type1/public/nanumtype1/nanummjmb9.pfb
-></usr/local/texlive/2013/texmf-dist/fonts/type1/public/nanumtype1/nanummjmba.p
-fb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/nanumtype1/nanummjmbb
+/local/texlive/2013/texmf-dist/fonts/type1/public/nanumtype1/nanummjmb6.pfb></u
+sr/local/texlive/2013/texmf-dist/fonts/type1/public/nanumtype1/nanummjmb7.pfb><
+/usr/local/texlive/2013/texmf-dist/fonts/type1/public/nanumtype1/nanummjmb8.pfb
+></usr/local/texlive/2013/texmf-dist/fonts/type1/public/nanumtype1/nanummjmb9.p
+fb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/nanumtype1/nanummjmba
 .pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/nanumtype1/nanummjm
-bc.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/nanumtype1/nanumm
-jmbd.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/nanumtype1/nanu
-mmjmbe.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/nanumtype1/na
-nummjmc0.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/nanumtype1/
-nanummjmc1.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/nanumtype
-1/nanummjmc2.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/nanumty
-pe1/nanummjmc4.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/nanum
-type1/nanummjmc5.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/nan
-umtype1/nanummjmc6.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/n
-anumtype1/nanummjmc7.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public
-/nanumtype1/nanummjmc8.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/publ
-ic/nanumtype1/nanummjmc9.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/pu
-blic/nanumtype1/nanummjmcc.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/
-public/nanumtype1/nanummjmce.pfb></usr/local/texlive/2013/texmf-dist/fonts/type
-1/public/nanumtype1/nanummjmd0.pfb></usr/local/texlive/2013/texmf-dist/fonts/ty
-pe1/public/nanumtype1/nanummjmd1.pfb></usr/local/texlive/2013/texmf-dist/fonts/
-type1/public/nanumtype1/nanummjmd2.pfb></usr/local/texlive/2013/texmf-dist/font
-s/type1/public/nanumtype1/nanummjmd3.pfb></usr/local/texlive/2013/texmf-dist/fo
-nts/type1/public/nanumtype1/nanummjmd4.pfb></usr/local/texlive/2013/texmf-dist/
-fonts/type1/public/nanumtype1/nanummjmd5.pfb></usr/local/texlive/2013/texmf-dis
-t/fonts/type1/public/nanumtype1/nanummjmd6.pfb></usr/local/texlive/2013/texmf-d
-ist/fonts/type1/public/nanumtype1/nanummjmd7.pfb></usr/local/texlive/2013/texmf
--dist/fonts/type1/uhc/umj/umj20.pfb></usr/local/texlive/2013/texmf-dist/fonts/t
-ype1/uhc/umj/umj31.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/uhc/umj/
-umj34.pfb>
-Output written on Lec4_matrix.pdf (15 pages, 1957953 bytes).
+bb.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/nanumtype1/nanumm
+jmbc.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/nanumtype1/nanu
+mmjmbd.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/nanumtype1/na
+nummjmbe.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/nanumtype1/
+nanummjmc0.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/nanumtype
+1/nanummjmc1.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/nanumty
+pe1/nanummjmc2.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/nanum
+type1/nanummjmc4.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/nan
+umtype1/nanummjmc5.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/n
+anumtype1/nanummjmc6.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public
+/nanumtype1/nanummjmc7.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/publ
+ic/nanumtype1/nanummjmc8.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/pu
+blic/nanumtype1/nanummjmc9.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/
+public/nanumtype1/nanummjmcc.pfb></usr/local/texlive/2013/texmf-dist/fonts/type
+1/public/nanumtype1/nanummjmcd.pfb></usr/local/texlive/2013/texmf-dist/fonts/ty
+pe1/public/nanumtype1/nanummjmce.pfb></usr/local/texlive/2013/texmf-dist/fonts/
+type1/public/nanumtype1/nanummjmd0.pfb></usr/local/texlive/2013/texmf-dist/font
+s/type1/public/nanumtype1/nanummjmd1.pfb></usr/local/texlive/2013/texmf-dist/fo
+nts/type1/public/nanumtype1/nanummjmd2.pfb></usr/local/texlive/2013/texmf-dist/
+fonts/type1/public/nanumtype1/nanummjmd3.pfb></usr/local/texlive/2013/texmf-dis
+t/fonts/type1/public/nanumtype1/nanummjmd4.pfb></usr/local/texlive/2013/texmf-d
+ist/fonts/type1/public/nanumtype1/nanummjmd5.pfb></usr/local/texlive/2013/texmf
+-dist/fonts/type1/public/nanumtype1/nanummjmd6.pfb></usr/local/texlive/2013/tex
+mf-dist/fonts/type1/public/nanumtype1/nanummjmd7.pfb></usr/local/texlive/2013/t
+exmf-dist/fonts/type1/uhc/umj/umj20.pfb></usr/local/texlive/2013/texmf-dist/fon
+ts/type1/uhc/umj/umj31.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/uhc/
+umj/umj34.pfb>
+Output written on Lec4_matrix.pdf (24 pages, 2109269 bytes).
 PDF statistics:
- 440 PDF objects out of 1000 (max. 8388607)
- 293 compressed objects within 3 object streams
- 32 named destinations out of 1000 (max. 500000)
- 78 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 559 PDF objects out of 1000 (max. 8388607)
+ 393 compressed objects within 4 object streams
+ 50 named destinations out of 1000 (max. 500000)
+ 93 words of extra memory for PDF output out of 10000 (max. 10000000)
 
