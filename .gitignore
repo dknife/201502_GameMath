@@ -1,8 +1,10 @@
 # project, workspace, and other intermmediate files
-*.sln
 *.suo
+*.sln
 *.aux
-*.toc
+*.ipch
+*.pdb
+*.sdf
 
 # Compiled Object files
 *.slo
