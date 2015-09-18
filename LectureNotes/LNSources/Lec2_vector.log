@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2014.3.4)  3 SEP 2015 16:50
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2014.3.4)  18 SEP 2015 11:57
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**Lec2_vector.tex
-(./Lec2_vector.tex
+**Lec2_Vector.tex
+(./Lec2_Vector.tex
 LaTeX2e <2011/06/27>
 Babel <3.9f> and hyphenation patterns for 78 languages loaded.
 (/usr/local/texlive/2013/texmf-dist/tex/latex/beamer/beamer.cls
@@ -1061,8 +1061,8 @@ Package: cjkutf8-josa 2013/02/23 v1.0 Auto-Josa for CJKutf8
 Package: kolabels-utf 2013/02/23 v1.0 UTF-8 Hangul item labels
 )
 (/usr/local/texlive/2013/texmf-dist/tex/generic/pdftex/glyphtounicode.tex)))
-(./Lec2_vector.aux)
-\openout1 = `Lec2_vector.aux'.
+(./Lec2_Vector.aux)
+\openout1 = `Lec2_Vector.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 26.
 LaTeX Font Info:    ... okay on input line 26.
@@ -1221,9 +1221,9 @@ LaTeX Info: Redefining \ref on input line 26.
 LaTeX Info: Redefining \pageref on input line 26.
 LaTeX Info: Redefining \nameref on input line 26.
 
-(./Lec2_vector.out) (./Lec2_vector.out)
+(./Lec2_Vector.out) (./Lec2_Vector.out)
 \@outlinefile=\write5
-\openout5 = `Lec2_vector.out'.
+\openout5 = `Lec2_Vector.out'.
 
 
 (/usr/local/texlive/2013/texmf-dist/tex/latex/beamer/translator/dicts/translato
@@ -1252,7 +1252,7 @@ Dictionary: translator-theorem-dictionary, Language: English
 )
 LaTeX Info: Redefining \includegraphics on input line 26.
 
-(./Lec2_vector.nav)
+(./Lec2_Vector.nav)
 LaTeX Font Info:    Try loading font information for C70+nanummj on input line 
 26.
 
@@ -1266,7 +1266,8 @@ LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <4> not available
 [1
 
 {/usr/local/texlive/2013/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-LaTeX Font Info:    Try loading font information for C70+uhcmj on input line 64
+(./Lec2_Vector_Contents.tex
+LaTeX Font Info:    Try loading font information for C70+uhcmj on input line 26
 .
 
 (/usr/local/texlive/2013/texmf-dist/tex/latex/nanumtype1/c70uhcmj.fd
@@ -1274,12 +1275,12 @@ File: c70uhcmj.fd 2013/02/16 v0.2 UHC Myeongjo font definitions
 ) [2
 
 ]
-LaTeX Font Info:    Try loading font information for U+msa on input line 92.
+LaTeX Font Info:    Try loading font information for U+msa on input line 54.
 
 (/usr/local/texlive/2013/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 92.
+LaTeX Font Info:    Try loading font information for U+msb on input line 54.
 
 (/usr/local/texlive/2013/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
@@ -1293,7 +1294,7 @@ Package epstopdf Info: Source file: <./Math_vector/movingVehicles.eps>
 (epstopdf)                    size: 170646 bytes
 (epstopdf)             Command: <repstopdf --outfile=./Math_vector/movingVehicl
 es-eps-converted-to.pdf ./Math_vector/movingVehicles.eps>
-(epstopdf)             \includegraphics on input line 92.
+(epstopdf)             \includegraphics on input line 54.
 Package epstopdf Info: Output file is already uptodate.
 
 <./Math_vector/movingVehicles-eps-converted-to.pdf, id=77, 513.92pt x 77.28876p
@@ -1302,7 +1303,7 @@ File: ./Math_vector/movingVehicles-eps-converted-to.pdf Graphic file (type pdf)
 
  <use ./Math_vector/movingVehicles-eps-converted-to.pdf>
 Package pdftex.def Info: ./Math_vector/movingVehicles-eps-converted-to.pdf used
- on input line 92.
+ on input line 54.
 (pdftex.def)             Requested size: 263.18799pt x 39.58183pt.
  [3
 
@@ -1316,7 +1317,7 @@ Package epstopdf Info: Source file: <Math_vector/vectorExpression.eps>
 (epstopdf)                    size: 75396 bytes
 (epstopdf)             Command: <repstopdf --outfile=Math_vector/vectorExpressi
 on-eps-converted-to.pdf Math_vector/vectorExpression.eps>
-(epstopdf)             \includegraphics on input line 117.
+(epstopdf)             \includegraphics on input line 79.
 Package epstopdf Info: Output file is already uptodate.
 
 <Math_vector/vectorExpression-eps-converted-to.pdf, id=101, 531.9875pt x 103.38
@@ -1325,7 +1326,7 @@ File: Math_vector/vectorExpression-eps-converted-to.pdf Graphic file (type pdf)
 
  <use Math_vector/vectorExpression-eps-converted-to.pdf>
 Package pdftex.def Info: Math_vector/vectorExpression-eps-converted-to.pdf used
- on input line 117.
+ on input line 79.
 (pdftex.def)             Requested size: 227.62204pt x 44.23593pt.
 Package epstopdf Info: Source file: <Math_vector/increasedSpeed.eps>
 (epstopdf)                    date: 2014-10-15 10:44:30
@@ -1336,7 +1337,7 @@ o.pdf>
 (epstopdf)                    size: 73757 bytes
 (epstopdf)             Command: <repstopdf --outfile=Math_vector/increasedSpeed
 -eps-converted-to.pdf Math_vector/increasedSpeed.eps>
-(epstopdf)             \includegraphics on input line 117.
+(epstopdf)             \includegraphics on input line 79.
 Package epstopdf Info: Output file is already uptodate.
 
 <Math_vector/increasedSpeed-eps-converted-to.pdf, id=102, 386.44376pt x 103.386
@@ -1344,7 +1345,7 @@ Package epstopdf Info: Output file is already uptodate.
 File: Math_vector/increasedSpeed-eps-converted-to.pdf Graphic file (type pdf)
  <use Math_vector/increasedSpeed-eps-converted-to.pdf>
 Package pdftex.def Info: Math_vector/increasedSpeed-eps-converted-to.pdf used o
-n input line 117.
+n input line 79.
 (pdftex.def)             Requested size: 227.62204pt x 60.89638pt.
  [4
 
@@ -1359,7 +1360,7 @@ d-to.pdf>
 (epstopdf)                    size: 4405 bytes
 (epstopdf)             Command: <repstopdf --outfile=Math_vector/equivalentVect
 ors-eps-converted-to.pdf Math_vector/equivalentVectors.eps>
-(epstopdf)             \includegraphics on input line 144.
+(epstopdf)             \includegraphics on input line 106.
 Package epstopdf Info: Output file is already uptodate.
 
 <Math_vector/equivalentVectors-eps-converted-to.pdf, id=124, 150.5625pt x 114.4
@@ -1368,7 +1369,7 @@ File: Math_vector/equivalentVectors-eps-converted-to.pdf Graphic file (type pdf
 )
  <use Math_vector/equivalentVectors-eps-converted-to.pdf>
 Package pdftex.def Info: Math_vector/equivalentVectors-eps-converted-to.pdf use
-d on input line 144.
+d on input line 106.
 (pdftex.def)             Requested size: 142.26378pt x 108.13106pt.
  [5
 
@@ -1382,7 +1383,7 @@ rted-to.pdf>
 (epstopdf)                    size: 4274 bytes
 (epstopdf)             Command: <repstopdf --outfile=./Math_vector/equivalentVe
 ctors2-eps-converted-to.pdf ./Math_vector/equivalentVectors2.eps>
-(epstopdf)             \includegraphics on input line 157.
+(epstopdf)             \includegraphics on input line 119.
 Package epstopdf Info: Output file is already uptodate.
 
 <./Math_vector/equivalentVectors2-eps-converted-to.pdf, id=138, 307.1475pt x 11
@@ -1391,7 +1392,7 @@ File: ./Math_vector/equivalentVectors2-eps-converted-to.pdf Graphic file (type
 pdf)
  <use ./Math_vector/equivalentVectors2-eps-converted-to.pdf>
 Package pdftex.def Info: ./Math_vector/equivalentVectors2-eps-converted-to.pdf 
-used on input line 157.
+used on input line 119.
 (pdftex.def)             Requested size: 284.52756pt x 106.00789pt.
  [6
 
@@ -1407,7 +1408,7 @@ Package epstopdf Info: Source file: <Math_vector/2dVectors.eps>
 (epstopdf)                    size: 11195 bytes
 (epstopdf)             Command: <repstopdf --outfile=Math_vector/2dVectors-eps-
 converted-to.pdf Math_vector/2dVectors.eps>
-(epstopdf)             \includegraphics on input line 182.
+(epstopdf)             \includegraphics on input line 144.
 Package epstopdf Info: Output file is already uptodate.
 
 <Math_vector/2dVectors-eps-converted-to.pdf, id=163, 483.8075pt x 323.2075pt>
@@ -1415,7 +1416,7 @@ File: Math_vector/2dVectors-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Math_vector/2dVectors-eps-converted-to.pdf>
 Package pdftex.def Info: Math_vector/2dVectors-eps-converted-to.pdf used on inp
-ut line 182.
+ut line 144.
 (pdftex.def)             Requested size: 284.52756pt x 190.08417pt.
  [8
 
@@ -1429,7 +1430,7 @@ f>
 (epstopdf)                    size: 6096 bytes
 (epstopdf)             Command: <repstopdf --outfile=Math_vector/vectorMove-eps
 -converted-to.pdf Math_vector/vectorMove.eps>
-(epstopdf)             \includegraphics on input line 196.
+(epstopdf)             \includegraphics on input line 158.
 Package epstopdf Info: Output file is already uptodate.
 
 <Math_vector/vectorMove-eps-converted-to.pdf, id=182, 387.4475pt x 258.9675pt>
@@ -1437,10 +1438,10 @@ File: Math_vector/vectorMove-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Math_vector/vectorMove-eps-converted-to.pdf>
 Package pdftex.def Info: Math_vector/vectorMove-eps-converted-to.pdf used on in
-put line 196.
+put line 158.
 (pdftex.def)             Requested size: 256.0748pt x 171.1601pt.
 
-Overfull \vbox (11.35612pt too high) detected at line 196
+Overfull \vbox (11.35612pt too high) detected at line 158
  []
 
 [9
@@ -1455,7 +1456,7 @@ Package epstopdf Info: Source file: <Math_vector/3dVector.eps>
 (epstopdf)                    size: 7903 bytes
 (epstopdf)             Command: <repstopdf --outfile=Math_vector/3dVector-eps-c
 onverted-to.pdf Math_vector/3dVector.eps>
-(epstopdf)             \includegraphics on input line 205.
+(epstopdf)             \includegraphics on input line 167.
 Package epstopdf Info: Output file is already uptodate.
 
 <Math_vector/3dVector-eps-converted-to.pdf, id=197, 328.22626pt x 279.0425pt>
@@ -1463,10 +1464,10 @@ File: Math_vector/3dVector-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Math_vector/3dVector-eps-converted-to.pdf>
 Package pdftex.def Info: Math_vector/3dVector-eps-converted-to.pdf used on inpu
-t line 205.
+t line 167.
 (pdftex.def)             Requested size: 256.0748pt x 217.70335pt.
 
-Overfull \vbox (29.88907pt too high) detected at line 205
+Overfull \vbox (29.88907pt too high) detected at line 167
  []
 
 [10
@@ -1481,7 +1482,7 @@ pdf>
 (epstopdf)                    size: 10533 bytes
 (epstopdf)             Command: <repstopdf --outfile=Math_vector/Pythagoras2D-e
 ps-converted-to.pdf Math_vector/Pythagoras2D.eps>
-(epstopdf)             \includegraphics on input line 224.
+(epstopdf)             \includegraphics on input line 186.
 Package epstopdf Info: Output file is already uptodate.
 
 <Math_vector/Pythagoras2D-eps-converted-to.pdf, id=224, 275.0275pt x 276.03125p
@@ -1489,7 +1490,7 @@ t>
 File: Math_vector/Pythagoras2D-eps-converted-to.pdf Graphic file (type pdf)
  <use Math_vector/Pythagoras2D-eps-converted-to.pdf>
 Package pdftex.def Info: Math_vector/Pythagoras2D-eps-converted-to.pdf used on 
-input line 224.
+input line 186.
 (pdftex.def)             Requested size: 170.71652pt x 171.34398pt.
  [11
 
@@ -1503,7 +1504,7 @@ o.pdf>
 (epstopdf)                    size: 9010 bytes
 (epstopdf)             Command: <repstopdf --outfile=Math_vector/3dVectorLength
 -eps-converted-to.pdf Math_vector/3dVectorLength.eps>
-(epstopdf)             \includegraphics on input line 238.
+(epstopdf)             \includegraphics on input line 200.
 Package epstopdf Info: Output file is already uptodate.
 
 <Math_vector/3dVectorLength-eps-converted-to.pdf, id=252, 272.01625pt x 196.735
@@ -1511,7 +1512,7 @@ pt>
 File: Math_vector/3dVectorLength-eps-converted-to.pdf Graphic file (type pdf)
  <use Math_vector/3dVectorLength-eps-converted-to.pdf>
 Package pdftex.def Info: Math_vector/3dVectorLength-eps-converted-to.pdf used o
-n input line 238.
+n input line 200.
 (pdftex.def)             Requested size: 199.16928pt x 144.05663pt.
  [12
 
@@ -1525,7 +1526,7 @@ f>
 (epstopdf)                    size: 10339 bytes
 (epstopdf)             Command: <repstopdf --outfile=Math_vector/unitVector-eps
 -converted-to.pdf Math_vector/unitVector.eps>
-(epstopdf)             \includegraphics on input line 257.
+(epstopdf)             \includegraphics on input line 219.
 Package epstopdf Info: Output file is already uptodate.
 
 <Math_vector/unitVector-eps-converted-to.pdf, id=275, 339.2675pt x 71.26625pt>
@@ -1533,37 +1534,37 @@ File: Math_vector/unitVector-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Math_vector/unitVector-eps-converted-to.pdf>
 Package pdftex.def Info: Math_vector/unitVector-eps-converted-to.pdf used on in
-put line 257.
+put line 219.
 (pdftex.def)             Requested size: 227.62204pt x 47.81337pt.
  [13
 
- <./Math_vector/unitVector-eps-converted-to.pdf>]
+ <./Math_vector/unitVector-eps-converted-to.pdf>])
 \tf@nav=\write6
-\openout6 = `Lec2_vector.nav'.
+\openout6 = `Lec2_Vector.nav'.
 
 \tf@toc=\write7
-\openout7 = `Lec2_vector.toc'.
+\openout7 = `Lec2_Vector.toc'.
 
 \tf@snm=\write8
-\openout8 = `Lec2_vector.snm'.
+\openout8 = `Lec2_Vector.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 262.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 262.
- (./Lec2_vector.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 262.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 262.
-Package rerunfilecheck Info: File `Lec2_vector.out' has not changed.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 41.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 41.
+ (./Lec2_Vector.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 41.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 41.
+Package rerunfilecheck Info: File `Lec2_Vector.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
 
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 1.0pt have occurred.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 262.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 41.
  ) 
 Here is how much of TeX's memory you used:
- 18384 strings out of 493315
- 331753 string characters out of 6137905
+ 18387 strings out of 493315
+ 331823 string characters out of 6137905
  419791 words of memory out of 5000000
  21169 multiletter control sequences out of 15000+600000
  84550 words of font info for 263 fonts, out of 8000000 for 9000
@@ -1627,7 +1628,7 @@ e/2013/texmf-dist/fonts/type1/uhc/umj/umj27.pfb></usr/local/texlive/2013/texmf-
 dist/fonts/type1/uhc/umj/umj31.pfb></usr/local/texlive/2013/texmf-dist/fonts/ty
 pe1/uhc/umj/umj35.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/uhc/umj/u
 mj36.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/uhc/umj/umj37.pfb>
-Output written on Lec2_vector.pdf (13 pages, 2164509 bytes).
+Output written on Lec2_Vector.pdf (13 pages, 2164509 bytes).
 PDF statistics:
  529 PDF objects out of 1000 (max. 8388607)
  366 compressed objects within 4 object streams
