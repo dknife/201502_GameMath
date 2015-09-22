@@ -1,3 +1,2 @@
 \beamer@endinputifotherversion {3.26pt}
 \select@language {english}
-\beamer@subsubsectionintoc {0}{0}{1}{덧셈}{46}{0}{0}
