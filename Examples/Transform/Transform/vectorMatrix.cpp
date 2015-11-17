@@ -148,25 +148,6 @@ vec3f rotate(int axis, float angleDegree, vec3f v) {
     return res;
 }
 
-
-void  initialzeTransform(transform &trans) {
-    setMatrix(trans.R, 1,0,0, 0,1,0, 0,0,1);
-    trans.d.e[0] = trans.d.e[1] = trans.d.e[2] = 0.0;
-}
-
-void  translate(transform &trans, float dx, float dy, float dz) {
-    trans.d.e[0] += dx;
-    trans.d.e[1] += dy;
-    trans.d.e[2] += dz;
-}
-
-vec3f apply(transform trans, vec3f p) {
-    vec3f res;
-    res = matrixVectorMult(trans.R, p);
-    for(int i=0;i<3;i++) res.e[i] += trans.d.e[i];
-    return res;
-}
-
 void printMatrix(mat33 m) {
     for(int i=0;i<3;i++) {
         for(int j=0;j<3; j++) {
