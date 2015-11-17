@@ -19,6 +19,12 @@ struct mat33 {
     float e[3][3];
 };
 
+// user defined data type: transform (rigid body)
+struct transform {
+    mat33 R;
+    vec3f d;
+};
+
 float length(vec3f v);
 vec3f normalize(vec3f v);
 float dotProduct(vec3f a, vec3f b);
@@ -40,6 +46,12 @@ mat33 matrixMult(mat33 m1, mat33 m2);
 mat33 matrixTranspose(mat33 m);
 
 vec3f rotate(int axis, float angleDegree, vec3f v);
+
+void  initialzeTransform(transform &trans);
+void  translate(transform &trans, float dx, float dy, float dz);
+vec3f apply(transform trans, vec3f p);
+
+
 
 void printMatrix(mat33 m);
 
